@@ -1,0 +1,3879 @@
+.csssize{height:3798px}#allrecords .r,body{--t-headline-font:'Unbounded',Arial,sans-serif;--t-text-font:'Unbounded',Arial,sans-serif}#allrecords .r,body{--uc-color-color-dioe6v0:#4f1515}.t-body{margin:0px}body{background-color:#000000}:where(.t-records) a,:where(.t-records) button,:where(.t-records) .t-radio,:where(.t-records) .t-checkbox,:where(.t-records) .t-img-select{outline:none}:where(.t-records) a:focus-visible,:where(.t-records) button:focus-visible,:where(.t-records) .t-focusable,:where(.t-records) .t-focusable .t-btn,:where(.t-records) .t-focusable .t-btntext,:where(.t-records) .t-img-select:focus-visible+.t-img-select__indicator,:where(.t-records) .t-img-select:focus-visible+.t-img-select__indicator:after,:where(.t-records) .t-radio:focus-visible+.t-radio__indicator,:where(.t-records) .t-checkbox:focus-visible+.t-checkbox__indicator{outline-color:#2015FF;outline-offset:4px;outline-style:auto}:where(.t-records) .t-descr a:focus-visible,:where(.t-records) .t-sociallinks a:focus-visible,:where(.t-records) .ya-share2__link:focus-visible{outline-offset:2px}@media print{body,html{min-width:1200px;max-width:1200px;padding:0;margin:0 auto;border:none}}.t-records{-webkit-font-smoothing:antialiased;background-color:#000000}:where(.t-records) a{color:#b8860b;text-decoration:none}:where(.t-records) a[href^=tel]{color:inherit;text-decoration:none}:where(.t-records) ol{padding-left:22px;margin-top:0px;margin-bottom:10px}:where(.t-records) ul{padding-left:20px;margin-top:0px;margin-bottom:10px}:where(.t-records) b,:where(.t-records) strong{font-weight:700}.t-mbfix{opacity:.01;-webkit-transform:translateX(0px);-ms-transform:translateX(0px);transform:translateX(0px);position:fixed;width:100%;height:500px;background-color:white;top:0px;left:0px;z-index:10000;-webkit-transition:all 0.1s ease;transition:all 0.1s ease}.t-mbfix_hide{-webkit-transform:translateX(3000px);-ms-transform:translateX(3000px);transform:translateX(3000px)}img:not([src]){visibility:hidden}.t-body_scroll-locked{position:fixed;left:0;width:100%;height:100%;overflow:hidden}.r_anim{-webkit-transition:opacity 0.5s;transition:opacity 0.5s}.r_hidden{opacity:0}.r_showed{opacity:1}@media screen and (max-width:1024px){a:active,button:active{-webkit-tap-highlight-color:rgba(255,255,255,.1)}}.t-tildalabel{background-color:#000;color:#fff;width:100%;height:70px;font-family:Arial;font-size:14px}.t-tildalabel:hover .t-tildalabel__wrapper{opacity:1}.t-tildalabel__wrapper{display:table;height:30px;width:270px;margin:0 auto;padding-top:20px;opacity:.4}.t-tildalabel__txtleft{display:table-cell;width:120px;height:30px;vertical-align:middle;text-align:right;padding-right:12px;font-weight:300;font-size:12px}.t-tildalabel__wrapimg{display:table-cell;width:30px;height:30px;vertical-align:middle}.t-tildalabel__img{width:30px;height:30px;vertical-align:middle}.t-tildalabel__txtright{display:table-cell;width:120px;height:30px;vertical-align:middle;padding-left:12px;font-weight:500;letter-spacing:2px}.t-tildalabel__link{color:#fff;text-decoration:none;vertical-align:middle}@media screen and (max-width:640px){}.t123__centeredContainer{text-align:center}
+
+
+
+                                /* =======================================
+   CONFIGURACIÓN INDEPENDIENTE DE MEDIDAS
+======================================== */
+
+                                .pensamiento-g143-wrapper {
+                                    /* MEDIDAS EN COMPUTADORA */
+
+                                    --pensamiento-g143-texto-pc: 30px;
+
+                                    --pensamiento-g143-firma-pc: 33px;
+
+                                    --pensamiento-g143-gif-pc: 100px;
+
+                                    /* MEDIDAS EN CELULARES */
+
+                                    --pensamiento-g143-texto-celular: 17px;
+
+                                    --pensamiento-g143-firma-celular: 35px;
+
+                                    --pensamiento-g143-gif-celular: 100px;
+                                }
+
+                                /* =======================================
+   RESET LOCAL
+======================================== */
+
+                                .pensamiento-g143-wrapper,
+                                .pensamiento-g143-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* =======================================
+   WRAPPER - FONDO DE ESCENA
+======================================== */
+
+                                .pensamiento-g143-wrapper {
+                                    width: 100%;
+
+                                    padding: 10px 0;
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    background-color: #f7b2b7; /* Fondo de escena */
+
+                                    font-family: "Handlee", cursive;
+                                }
+
+                                /* =======================================
+   MARCO - FONDO MARFIL Y BORDE ROSADO
+======================================== */
+
+                                .pensamiento-g143-container {
+                                    width: 90%;
+                                    max-width: 900px;
+
+                                    padding: 20px;
+
+                                    background-color: #fdf5e6; /* Botones / Marfil */
+
+                                    border: 2px solid #fce4e6; /* Marco en marfil rosado */
+
+                                    border-radius: 20px;
+
+                                    box-shadow: none;
+
+                                    text-align: center;
+                                }
+
+                                /* =======================================
+   TEXTOS - CAFÉ OSCURO
+======================================== */
+
+                                .pensamiento-g143-parrafo {
+                                    margin-top: 0;
+                                    margin-bottom: 20px;
+
+                                    color: #4e342e; /* Textos en café */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--pensamiento-g143-texto-pc);
+
+                                    line-height: 1.5;
+
+                                    font-weight: 700;
+
+                                    text-align: center;
+                                }
+
+                                /* =======================================
+   FIRMA - COLOR DE TÍTULOS
+======================================== */
+
+                                .pensamiento-g143-firma {
+                                    color: #efa5b4; /* Títulos */
+
+                                    font-family: "Dancing Script", cursive;
+
+                                    font-size: var(--pensamiento-g143-firma-pc);
+
+                                    font-weight: 700;
+
+                                    letter-spacing: 1px;
+                                }
+
+                                /* =======================================
+   GIF NATURAL SIN FILTRO
+======================================== */
+
+                                .pensamiento-g143-gif {
+                                    width: var(--pensamiento-g143-gif-pc);
+
+                                    max-width: var(--pensamiento-g143-gif-pc);
+
+                                    height: auto;
+
+                                    margin-top: 20px;
+                                    margin-right: auto;
+                                    margin-left: auto;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    filter: none;
+                                }
+
+                                /* =======================================
+   ANIMACIÓN
+======================================== */
+
+                                .pensamiento-g143-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+                                }
+
+                                .pensamiento-g143-fade.pensamiento-g143-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* =======================================
+   VERSIÓN PARA CELULARES
+======================================== */
+
+                                @media (max-width: 600px) {
+                                    .pensamiento-g143-container {
+                                        width: 94%;
+
+                                        padding: 25px 15px;
+                                    }
+
+                                    .pensamiento-g143-parrafo {
+                                        font-size: var(--pensamiento-g143-texto-celular);
+                                    }
+
+                                    .pensamiento-g143-firma {
+                                        font-size: var(--pensamiento-g143-firma-celular);
+                                    }
+
+                                    .pensamiento-g143-gif {
+                                        width: var(--pensamiento-g143-gif-celular);
+
+                                        max-width: var(--pensamiento-g143-gif-celular);
+                                    }
+                                }
+
+                                /* =======================================
+   MOVIMIENTO REDUCIDO
+======================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .pensamiento-g143-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+                                }
+
+
+
+                                /* =======================================
+     CONFIGURACIÓN INDEPENDIENTE DE MEDIDAS
+  ======================================== */
+
+                                .padres-guion-143-escena {
+                                    /* MEDIDAS EN COMPUTADORA */
+                                    --padres-guion-143-titulo-papas-pc: 37px;
+                                    --padres-guion-143-nombres-pc: 32px;
+                                    --padres-guion-143-letra-y-pc: 27px;
+                                    --padres-guion-143-imagen-url-pc: 50px;
+                                    --padres-guion-143-gif-pc: 80px;
+                                    --padres-guion-143-titulo-padrinos-pc: 31px;
+
+                                    /* MEDIDAS EN CELULARES */
+                                    --padres-guion-143-titulo-papas-celular: 20px;
+                                    --padres-guion-143-nombres-celular: 23px;
+                                    --padres-guion-143-letra-y-celular: 21px;
+                                    --padres-guion-143-imagen-url-celular: 35px;
+                                    --padres-guion-143-gif-celular: 60px;
+                                    --padres-guion-143-titulo-padrinos-celular: 20px;
+                                }
+
+                                /* =======================================
+     RESET LOCAL
+  ======================================== */
+
+                                .padres-guion-143-escena,
+                                .padres-guion-143-escena * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* =======================================
+     ESCENA PRINCIPAL
+  ======================================== */
+
+                                .padres-guion-143-escena {
+                                    width: 100%;
+                                    max-width: 100%;
+                                    padding: 24px 20px 32px;
+                                    overflow: hidden;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    background-color: #f7b2b7;
+                                    font-family: "Mountains of Christmas", cursive;
+                                    text-align: center;
+                                }
+
+                                /* =======================================
+     TÍTULO DE PAPÁS (CON MARCO SEMI-TRANSPARENTE)
+  ======================================== */
+
+                                .padres-guion-143-texto-wrap {
+                                    margin-bottom: 24px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 8px;
+                                    padding: 12px 24px;
+                                    background-color: rgba(253, 245, 230, 0.7);
+                                    border: 2px solid #fce4e6;
+                                    border-radius: 16px;
+                                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+                                }
+
+                                .padres-guion-143-texto {
+                                    color: #efa5b4;
+                                    font-family: "Handlee", cursive;
+                                    font-size: var(--padres-guion-143-titulo-papas-pc);
+                                    line-height: 1.3;
+                                    font-weight: 700;
+                                    text-shadow: none;
+                                }
+
+                                /* =======================================
+     CONTENEDOR DE PAPÁS (AHORA SOLO MAMÁ)
+  ======================================== */
+
+                                .padres-guion-143-padres-wrap {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    gap: 15px;
+                                }
+
+                                /* =======================================
+     FILA DE MAMÁ
+  ======================================== */
+
+                                .padres-guion-143-linea-madre {
+                                    max-width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 8px;
+                                }
+
+                                .padres-guion-143-madre div {
+                                    color: #4e342e;
+                                    font-family: "Macondo", cursive;
+                                    font-size: var(--padres-guion-143-nombres-pc);
+                                    line-height: 1.2;
+                                    text-shadow: none;
+                                }
+
+                                /* =======================================
+     IMÁGENES NATURALES SIN FILTRO
+  ======================================== */
+
+                                .padres-guion-143-img {
+                                    height: auto;
+                                    display: block;
+                                    object-fit: contain;
+                                    filter: none;
+                                }
+
+                                /* IMÁGENES PNG, WEBP O URL */
+                                .padres-guion-143-slide-left {
+                                    width: var(--padres-guion-143-imagen-url-pc) !important;
+                                    max-width: var(--padres-guion-143-imagen-url-pc) !important;
+                                }
+
+                                /* IMÁGENES GIF */
+                                .padres-guion-143-slide-right {
+                                    width: var(--padres-guion-143-gif-pc) !important;
+                                    max-width: var(--padres-guion-143-gif-pc) !important;
+                                }
+
+                                /* =======================================
+     SEPARADOR FINO Y ELEGANTE
+  ======================================== */
+
+                                .padres-guion-143-separador {
+                                    width: 100%;
+                                    max-width: 330px;
+                                    margin-top: 38px;
+                                    margin-bottom: 38px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 12px;
+                                }
+
+                                .padres-guion-143-separador-linea {
+                                    height: 1px;
+                                    flex: 1;
+                                    background: linear-gradient(
+                                        to right,
+                                        transparent,
+                                        rgba(239, 165, 180, 0.65),
+                                        transparent
+                                    );
+                                }
+
+                                .padres-guion-143-separador-centro {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 5px;
+                                }
+
+                                .padres-guion-143-separador-centro i {
+                                    width: 4px;
+                                    height: 4px;
+                                    display: block;
+                                    border-radius: 50%;
+                                    background-color: rgba(239, 165, 180, 0.65);
+                                }
+
+                                .padres-guion-143-separador-centro b {
+                                    width: 8px;
+                                    height: 8px;
+                                    display: block;
+                                    border: 1px solid #efa5b4;
+                                    background-color: transparent;
+                                    transform: rotate(45deg);
+                                    box-shadow: 0 0 5px rgba(239, 165, 180, 0.2);
+                                }
+
+                                /* =======================================
+     TÍTULO DE PADRINOS (CON MARCO SEMI-TRANSPARENTE)
+  ======================================== */
+
+                                .padres-guion-143-padrinos-titulo-wrap {
+                                    margin-bottom: 25px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 8px;
+                                    padding: 12px 24px;
+                                    background-color: rgba(253, 245, 230, 0.7);
+                                    border: 2px solid #fce4e6;
+                                    border-radius: 16px;
+                                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+                                }
+
+                                .padres-guion-143-padrinos-titulo {
+                                    color: #efa5b4;
+                                    font-family: "Handlee", cursive;
+                                    font-size: var(--padres-guion-143-titulo-padrinos-pc);
+                                    line-height: 1.3;
+                                    font-weight: 700;
+                                    text-shadow: none;
+                                }
+
+                                /* =======================================
+     CONTENEDOR DE PADRINOS (AHORA SOLO MADRINA)
+  ======================================== */
+
+                                .padres-guion-143-padrinos-wrap {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    gap: 15px;
+                                }
+
+                                /* =======================================
+     FILA DE MADRINA
+  ======================================== */
+
+                                .padres-guion-143-linea-madrina {
+                                    max-width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 8px;
+                                }
+
+                                .padres-guion-143-madrina div {
+                                    color: #4e342e;
+                                    font-family: "Macondo", cursive;
+                                    font-size: var(--padres-guion-143-nombres-pc);
+                                    line-height: 1.2;
+                                    text-shadow: none;
+                                }
+
+                                /* =======================================
+     ANIMACIÓN FADE
+  ======================================== */
+
+                                .padres-guion-143-fade {
+                                    opacity: 0;
+                                    transform: translateY(20px);
+                                    transition:
+                                        opacity 0.9s ease,
+                                        transform 0.9s ease;
+                                }
+
+                                .padres-guion-143-fade.padres-guion-143-visible {
+                                    opacity: 1;
+                                    transform: translateY(0);
+                                }
+
+                                /* =======================================
+     ANIMACIÓN LATERAL
+  ======================================== */
+
+                                .padres-guion-143-slide-right {
+                                    opacity: 0;
+                                    transform: translateX(-40px);
+                                    transition:
+                                        opacity 1s ease,
+                                        transform 1s ease;
+                                }
+
+                                .padres-guion-143-slide-left {
+                                    opacity: 0;
+                                    transform: translateX(40px);
+                                    transition:
+                                        opacity 1s ease,
+                                        transform 1s ease;
+                                }
+
+                                .padres-guion-143-slide-right.padres-guion-143-visible,
+                                .padres-guion-143-slide-left.padres-guion-143-visible {
+                                    opacity: 1;
+                                    transform: translateX(0);
+                                }
+
+                                /* =======================================
+     VERSIÓN PARA CELULARES
+  ======================================== */
+
+                                @media (max-width: 600px) {
+                                    .padres-guion-143-escena {
+                                        padding: 22px 20px 28px;
+                                    }
+
+                                    .padres-guion-143-texto-wrap,
+                                    .padres-guion-143-padrinos-titulo-wrap {
+                                        padding: 10px 16px;
+                                    }
+
+                                    .padres-guion-143-texto {
+                                        font-size: var(--padres-guion-143-titulo-papas-celular);
+                                    }
+
+                                    .padres-guion-143-madre div,
+                                    .padres-guion-143-madrina div {
+                                        font-size: var(--padres-guion-143-nombres-celular);
+                                    }
+
+                                    .padres-guion-143-slide-left {
+                                        width: var(--padres-guion-143-imagen-url-celular) !important;
+                                        max-width: var(--padres-guion-143-imagen-url-celular) !important;
+                                    }
+
+                                    .padres-guion-143-slide-right {
+                                        width: var(--padres-guion-143-gif-celular) !important;
+                                        max-width: var(--padres-guion-143-gif-celular) !important;
+                                    }
+
+                                    .padres-guion-143-separador {
+                                        max-width: 270px;
+                                        margin-top: 32px;
+                                        margin-bottom: 32px;
+                                        gap: 9px;
+                                    }
+
+                                    .padres-guion-143-padrinos-titulo {
+                                        font-size: var(--padres-guion-143-titulo-padrinos-celular);
+                                    }
+                                }
+
+                                /* =======================================
+     MOVIMIENTO REDUCIDO
+  ======================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .padres-guion-143-fade,
+                                    .padres-guion-143-slide-right,
+                                    .padres-guion-143-slide-left {
+                                        opacity: 1;
+                                        transform: none;
+                                        transition: none;
+                                    }
+                                }
+
+                                /* ===============================
+   ESCENA - FONDO DE ESCENA
+================================ */
+
+                                .fecha-p5-escena {
+                                    width: 100%;
+
+                                    background-color: #f7b2b7; /* Fondo de escena */
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    padding: 12px;
+
+                                    box-sizing: border-box;
+                                }
+
+                                /* ===============================
+   CONTENEDOR SIN MARCO
+================================ */
+
+                                .fecha-p5-contenedor {
+                                    width: 100%;
+                                    max-width: 1200px;
+
+                                    padding: 16px;
+
+                                    text-align: center;
+
+                                    box-sizing: border-box;
+                                }
+
+                                /* ===============================
+   TEXTOS PRINCIPALES - CAFÉ
+================================ */
+
+                                .fecha-p5-texto {
+                                    margin: 0;
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: 37px;
+                                    font-weight: 700;
+                                    line-height: 1.3;
+
+                                    color: #4e342e; /* CAMBIADO: café oscuro */
+
+                                    letter-spacing: 1px;
+                                }
+
+                                .fecha-p5-texto-secundario {
+                                    font-size: 30px;
+
+                                    color: #4e342e; /* Ya estaba en café */
+                                }
+
+                                /* ===============================
+   IMAGEN
+================================ */
+
+                                .fecha-p5-imagen-wrap {
+                                    display: flex;
+                                    justify-content: center;
+
+                                    margin-top: 8px;
+                                }
+
+                                .fecha-p5-imagen {
+                                    max-width: 100%;
+
+                                    height: auto;
+
+                                    border-radius: 20px;
+                                }
+
+                                /* ===============================
+   ESPACIOS
+================================ */
+
+                                .fecha-p5-espacio {
+                                    height: 50px;
+                                }
+
+                                .fecha-p5-espacio-grande {
+                                    height: 50px;
+                                }
+
+                                /* ===============================
+   CONTADOR - RECUADROS ROSA MEDIO (#E07A8A)
+================================ */
+
+                                .fecha-p5-countdown {
+                                    display: flex;
+                                    justify-content: center;
+
+                                    gap: 12px;
+                                }
+
+                                .fecha-p5-countdown-item {
+                                    width: 85px;
+
+                                    padding: 16px 12px;
+
+                                    box-sizing: border-box;
+
+                                    border-radius: 12px;
+
+                                    background: #e07a8a; /* CAMBIADO: rosa más fuerte pero no chillante */
+
+                                    box-shadow: 0 4px 12px rgba(224, 122, 138, 0.4); /* Sombra acorde */
+
+                                    transform: translateY(0) scale(1);
+
+                                    transform-origin: center bottom;
+                                }
+
+                                /* ===============================
+   NÚMEROS Y ETIQUETAS EN CAFÉ
+================================ */
+
+                                .fecha-p5-countdown-number {
+                                    font-size: 32px;
+                                    font-weight: 700;
+
+                                    color: #4e342e; /* Café oscuro para legibilidad */
+                                }
+
+                                .fecha-p5-countdown-label {
+                                    margin-top: 4px;
+
+                                    font-size: 14px;
+                                    font-weight: 600;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ===============================
+   SALTO SUAVE DE SEGUNDOS
+================================ */
+
+                                .fecha-p5-countdown-segundos.fecha-p5-segundos-salto {
+                                    animation: fecha-p5-salto-suave 0.48s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+                                }
+
+                                @keyframes fecha-p5-salto-suave {
+                                    0% {
+                                        transform: translateY(0) scale(1);
+
+                                        box-shadow: 0 4px 12px rgba(224, 122, 138, 0.4);
+                                    }
+
+                                    42% {
+                                        transform: translateY(-8px) scale(1.035);
+
+                                        box-shadow: 0 11px 19px rgba(0, 0, 0, 0.12);
+                                    }
+
+                                    72% {
+                                        transform: translateY(1px) scale(0.995);
+
+                                        box-shadow: 0 3px 10px rgba(224, 122, 138, 0.35);
+                                    }
+
+                                    100% {
+                                        transform: translateY(0) scale(1);
+
+                                        box-shadow: 0 4px 12px rgba(224, 122, 138, 0.4);
+                                    }
+                                }
+
+                                /* ===============================
+   SEPARADOR CON EL NUEVO ROSA
+================================ */
+
+                                .fecha-p5-separador {
+                                    width: 100%;
+                                    max-width: 520px;
+
+                                    margin: 25px auto 10px;
+
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    gap: 14px;
+                                }
+
+                                .fecha-p5-separador span {
+                                    flex: 1;
+
+                                    height: 1px;
+
+                                    background: linear-gradient(
+                                        to right,
+                                        transparent,
+                                        #e07a8a,
+                                        /* CAMBIADO: nuevo rosa */ transparent
+                                    );
+                                }
+
+                                .fecha-p5-separador-icono {
+                                    font-size: 16px;
+                                    line-height: 1;
+
+                                    color: #e07a8a; /* CAMBIADO: nuevo rosa */
+                                }
+
+                                /* ===============================
+   CALENDARIO SIN MARCO
+================================ */
+
+                                .fecha-p5-calendar-wrap {
+                                    margin-top: 34px;
+
+                                    padding: 0;
+
+                                    background-color: transparent;
+
+                                    border: none;
+                                    border-radius: 0;
+
+                                    box-shadow: none;
+                                }
+
+                                .fecha-p5-calendar-titulo {
+                                    margin-bottom: 8px;
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: 30px;
+                                    font-weight: 700;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                .fecha-p5-calendar-subtitulo {
+                                    margin-bottom: 18px;
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: 22px;
+                                    line-height: 1.35;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                .fecha-p5-calendar-botones {
+                                    display: flex;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+
+                                    gap: 14px;
+                                }
+
+                                .fecha-p5-calendar-btn {
+                                    min-width: 170px;
+
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    padding: 10px 16px;
+
+                                    box-sizing: border-box;
+
+                                    border: 2px solid #fce4e6; /* Marco en marfil rosado */
+                                    border-radius: 12px;
+
+                                    background-color: #fdf5e6; /* Botones en marfil */
+
+                                    color: #4e342e; /* Texto café */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: 18px;
+                                    font-weight: 700;
+
+                                    text-decoration: none;
+
+                                    cursor: pointer;
+
+                                    box-shadow: 0 6px 14px rgba(224, 122, 138, 0.2); /* Sombra con el nuevo rosa */
+
+                                    transition:
+                                        transform 0.2s ease,
+                                        box-shadow 0.2s ease,
+                                        background-color 0.2s ease;
+                                }
+
+                                .fecha-p5-calendar-btn:hover {
+                                    transform: translateY(-2px);
+
+                                    background-color: #fce4e6; /* Hover en marfil rosado */
+
+                                    box-shadow: 0 10px 18px rgba(224, 122, 138, 0.3);
+                                }
+
+                                /* ===============================
+   ANIMACIÓN GENERAL
+================================ */
+
+                                .fecha-p5-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.9s ease,
+                                        transform 0.9s ease;
+                                }
+
+                                .fecha-p5-fade.visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* ===============================
+   RESPONSIVE
+================================ */
+
+                                @media (max-width: 600px) {
+                                    .fecha-p5-texto {
+                                        font-size: 23px;
+                                    }
+
+                                    .fecha-p5-texto-secundario {
+                                        font-size: 20px;
+                                    }
+
+                                    .fecha-p5-espacio,
+                                    .fecha-p5-espacio-grande {
+                                        height: 30px;
+                                    }
+
+                                    .fecha-p5-countdown-number {
+                                        font-size: 24px;
+                                    }
+
+                                    .fecha-p5-countdown-label {
+                                        font-size: 12px;
+                                    }
+
+                                    .fecha-p5-countdown-item {
+                                        width: 70px;
+
+                                        padding: 12px 8px;
+                                    }
+
+                                    .fecha-p5-separador {
+                                        max-width: 280px;
+
+                                        margin: 20px auto 8px;
+
+                                        gap: 10px;
+                                    }
+
+                                    .fecha-p5-separador-icono {
+                                        font-size: 14px;
+                                    }
+
+                                    .fecha-p5-calendar-wrap {
+                                        margin-top: 26px;
+
+                                        padding: 0;
+                                    }
+
+                                    .fecha-p5-calendar-titulo {
+                                        font-size: 20px;
+                                    }
+
+                                    .fecha-p5-calendar-subtitulo {
+                                        font-size: 16px;
+                                    }
+
+                                    .fecha-p5-calendar-btn {
+                                        min-width: auto;
+
+                                        padding: 10px 14px;
+
+                                        font-size: 16px;
+                                    }
+                                }
+
+                                /* ===============================
+   MOVIMIENTO REDUCIDO
+================================ */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .fecha-p5-countdown-segundos.fecha-p5-segundos-salto {
+                                        animation: none;
+                                    }
+                                }
+        
+
+                                /* =======================================
+   CONFIGURACIÓN INDEPENDIENTE DE MEDIDAS
+======================================== */
+
+                                .ceremonia-religiosa-143-wrapper {
+                                    /* MEDIDAS EN COMPUTADORA */
+
+                                    --ceremonia-religiosa-143-titulo-pc: 35px;
+                                    --ceremonia-religiosa-143-imagen-superior-pc: 100px;
+                                    --ceremonia-religiosa-143-hora-pc: 42px;
+                                    --ceremonia-religiosa-143-santuario-pc: 28px;
+                                    --ceremonia-religiosa-143-direccion-pc: 30px;
+                                    --ceremonia-religiosa-143-boton-texto-pc: 12px;
+                                    --ceremonia-religiosa-143-boton-padding-vertical-pc: 5px;
+                                    --ceremonia-religiosa-143-boton-padding-horizontal-pc: 14px;
+                                    --ceremonia-religiosa-143-gif-final-pc: 100px;
+
+                                    /* MEDIDAS EN CELULARES */
+
+                                    --ceremonia-religiosa-143-titulo-celular: 20px;
+                                    --ceremonia-religiosa-143-imagen-superior-celular: 80px;
+                                    --ceremonia-religiosa-143-hora-celular: 24px;
+                                    --ceremonia-religiosa-143-santuario-celular: 17px;
+                                    --ceremonia-religiosa-143-direccion-celular: 17px;
+                                    --ceremonia-religiosa-143-boton-texto-celular: 12px;
+                                    --ceremonia-religiosa-143-boton-padding-vertical-celular: 5px;
+                                    --ceremonia-religiosa-143-boton-padding-horizontal-celular: 14px;
+                                    --ceremonia-religiosa-143-gif-final-celular: 120px;
+                                }
+
+                                /* =======================================
+   RESET LOCAL
+======================================== */
+
+                                .ceremonia-religiosa-143-wrapper,
+                                .ceremonia-religiosa-143-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* =======================================
+   WRAPPER - FONDO DE ESCENA
+======================================== */
+
+                                .ceremonia-religiosa-143-wrapper {
+                                    width: 100%;
+
+                                    padding: 10px;
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    background-color: #f7b2b7; /* Fondo de escena */
+
+                                    font-family: "Handlee", cursive;
+                                }
+
+                                /* =======================================
+   CONTENEDOR PRINCIPAL - MARFIL CON BORDE ROSADO
+======================================== */
+
+                                .ceremonia-religiosa-143-container {
+                                    width: 98%;
+                                    max-width: 1200px;
+
+                                    padding: 20px;
+
+                                    background-color: #fdf5e6; /* Marfil */
+
+                                    border: 3px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: 20px;
+
+                                    box-shadow: none;
+
+                                    text-align: center;
+                                }
+
+                                /* =======================================
+   ANIMACIÓN FADE
+======================================== */
+
+                                .ceremonia-religiosa-143-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+                                }
+
+                                .ceremonia-religiosa-143-fade.ceremonia-religiosa-143-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* =======================================
+   TÍTULO - CAFÉ
+======================================== */
+
+                                .ceremonia-religiosa-143-titulo {
+                                    margin-bottom: 40px;
+
+                                    color: #4e342e; /* Café oscuro */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--ceremonia-religiosa-143-titulo-pc);
+
+                                    line-height: 1.3;
+
+                                    font-weight: 700;
+                                }
+
+                                /* =======================================
+   CONFIGURACIÓN GENERAL DE IMÁGENES
+======================================== */
+
+                                .ceremonia-religiosa-143-img {
+                                    height: auto;
+
+                                    margin-right: auto;
+                                    margin-left: auto;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    border-radius: 15px;
+                                }
+
+                                /* =======================================
+   IMAGEN SUPERIOR - NEGRO PURO
+======================================== */
+
+                                .ceremonia-religiosa-143-img-santuario {
+                                    width: var(--ceremonia-religiosa-143-imagen-superior-pc);
+
+                                    max-width: var(--ceremonia-religiosa-143-imagen-superior-pc);
+
+                                    margin-top: 15px;
+                                    margin-bottom: 10px;
+
+                                    filter: brightness(0) !important; /* NEGRO PURO */
+                                }
+
+                                /* =======================================
+   SUBTÍTULOS - CAFÉ
+======================================== */
+
+                                .ceremonia-religiosa-143-subtitulo {
+                                    color: #4e342e; /* Café */
+
+                                    font-family: "Cinzel", serif;
+
+                                    font-weight: 700;
+                                }
+
+                                /* =======================================
+   HORA - CAFÉ
+======================================== */
+
+                                .ceremonia-religiosa-143-hora {
+                                    margin-bottom: 30px;
+
+                                    color: #4e342e; /* Café */
+
+                                    font-size: var(--ceremonia-religiosa-143-hora-pc);
+
+                                    line-height: 1.3;
+                                }
+
+                                /* =======================================
+   MINIMARCO DEL SANTUARIO - ROSA MEDIO (#E07A8A)
+======================================== */
+
+                                .ceremonia-religiosa-143-santuario {
+                                    display: inline-block;
+
+                                    margin-bottom: 25px;
+
+                                    padding: 12px 18px;
+
+                                    border-radius: 12px;
+
+                                    background-color: #e07a8a; /* Rosa medio del contador */
+
+                                    color: #4e342e; /* Café para legibilidad */
+
+                                    font-size: var(--ceremonia-religiosa-143-santuario-pc);
+
+                                    line-height: 1.35;
+
+                                    box-shadow: 0 10px 22px rgba(224, 122, 138, 0.3); /* Sombra acorde */
+                                }
+
+                                /* =======================================
+   DIRECCIÓN - CAFÉ
+======================================== */
+
+                                .ceremonia-religiosa-143-direccion {
+                                    margin-bottom: 25px;
+
+                                    color: #4e342e; /* Café */
+
+                                    font-family: "Macondo", cursive;
+
+                                    font-size: var(--ceremonia-religiosa-143-direccion-pc);
+
+                                    line-height: 1.4;
+                                }
+
+                                /* =======================================
+   BOTÓN DE UBICACIÓN - ROSITA BAJITO
+======================================== */
+
+                                .ceremonia-religiosa-143-btn {
+                                    min-height: 44px;
+
+                                    margin-bottom: 25px;
+
+                                    padding: var(--ceremonia-religiosa-143-boton-padding-vertical-pc)
+                                        var(--ceremonia-religiosa-143-boton-padding-horizontal-pc);
+
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    border: 2px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: 16px;
+
+                                    background-color: #f7c5c9; /* ROSITA BAJITO */
+
+                                    color: #4e342e !important; /* Texto café */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--ceremonia-religiosa-143-boton-texto-pc);
+
+                                    line-height: 1.3;
+
+                                    font-weight: 700;
+
+                                    letter-spacing: 1px;
+
+                                    text-decoration: none;
+
+                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+
+                                    transition:
+                                        transform 0.25s ease,
+                                        background-color 0.25s ease,
+                                        box-shadow 0.25s ease;
+                                }
+
+                                .ceremonia-religiosa-143-btn:hover {
+                                    transform: translateY(-2px);
+
+                                    background-color: #f0b0b6; /* Un poco más oscuro al pasar */
+
+                                    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
+                                }
+
+                                .ceremonia-religiosa-143-btn:focus-visible {
+                                    outline: 3px solid rgba(247, 197, 201, 0.55);
+
+                                    outline-offset: 4px;
+                                }
+
+                                /* =======================================
+   GIF FINAL NATURAL SIN FILTRO
+======================================== */
+
+                                .ceremonia-religiosa-143-img-final {
+                                    width: var(--ceremonia-religiosa-143-gif-final-pc);
+
+                                    max-width: var(--ceremonia-religiosa-143-gif-final-pc);
+
+                                    margin-top: 15px;
+                                    margin-bottom: 10px;
+
+                                    filter: none;
+                                }
+
+                                /* =======================================
+   VERSIÓN PARA CELULARES
+======================================== */
+
+                                @media (max-width: 600px) {
+                                    .ceremonia-religiosa-143-container {
+                                        width: 100%;
+                                        max-width: 100%;
+
+                                        padding: 20px;
+                                    }
+
+                                    .ceremonia-religiosa-143-titulo {
+                                        font-size: var(--ceremonia-religiosa-143-titulo-celular);
+                                    }
+
+                                    .ceremonia-religiosa-143-img-santuario {
+                                        width: var(--ceremonia-religiosa-143-imagen-superior-celular);
+
+                                        max-width: var(--ceremonia-religiosa-143-imagen-superior-celular);
+                                    }
+
+                                    .ceremonia-religiosa-143-hora {
+                                        font-size: var(--ceremonia-religiosa-143-hora-celular);
+                                    }
+
+                                    .ceremonia-religiosa-143-santuario {
+                                        font-size: var(--ceremonia-religiosa-143-santuario-celular);
+                                    }
+
+                                    .ceremonia-religiosa-143-direccion {
+                                        font-size: var(--ceremonia-religiosa-143-direccion-celular);
+                                    }
+
+                                    .ceremonia-religiosa-143-btn {
+                                        padding: var(--ceremonia-religiosa-143-boton-padding-vertical-celular)
+                                            var(--ceremonia-religiosa-143-boton-padding-horizontal-celular);
+
+                                        font-size: var(--ceremonia-religiosa-143-boton-texto-celular);
+                                    }
+
+                                    .ceremonia-religiosa-143-img-final {
+                                        width: var(--ceremonia-religiosa-143-gif-final-celular);
+
+                                        max-width: var(--ceremonia-religiosa-143-gif-final-celular);
+                                    }
+                                }
+
+                                /* =======================================
+   MOVIMIENTO REDUCIDO
+======================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .ceremonia-religiosa-143-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+
+                                    .ceremonia-religiosa-143-btn {
+                                        transition: none;
+                                    }
+                                }
+
+
+                                /* =======================================
+   CONFIGURACIÓN INDEPENDIENTE DE MEDIDAS
+======================================== */
+
+                                .recepcion-guion-143-wrapper {
+                                    /* MEDIDAS EN COMPUTADORA */
+
+                                    --recepcion-guion-143-titulo-pc: 35px;
+
+                                    --recepcion-guion-143-imagen-superior-pc: 100px;
+
+                                    --recepcion-guion-143-hora-pc: 42px;
+
+                                    --recepcion-guion-143-lugar-pc: 28px;
+                                    --recepcion-guion-143-lugar-padding-vertical-pc: 12px;
+                                    --recepcion-guion-143-lugar-padding-horizontal-pc: 18px;
+
+                                    --recepcion-guion-143-direccion-pc: 30px;
+
+                                    --recepcion-guion-143-boton-texto-pc: 12px;
+                                    --recepcion-guion-143-boton-padding-vertical-pc: 5px;
+                                    --recepcion-guion-143-boton-padding-horizontal-pc: 14px;
+
+                                    --recepcion-guion-143-imagen-final-pc: 100px;
+
+                                    /* MEDIDAS EN CELULARES */
+
+                                    --recepcion-guion-143-titulo-celular: 20px;
+
+                                    --recepcion-guion-143-imagen-superior-celular: 80px;
+
+                                    --recepcion-guion-143-hora-celular: 24px;
+
+                                    --recepcion-guion-143-lugar-celular: 17px;
+                                    --recepcion-guion-143-lugar-padding-vertical-celular: 12px;
+                                    --recepcion-guion-143-lugar-padding-horizontal-celular: 18px;
+
+                                    --recepcion-guion-143-direccion-celular: 17px;
+
+                                    --recepcion-guion-143-boton-texto-celular: 12px;
+                                    --recepcion-guion-143-boton-padding-vertical-celular: 5px;
+                                    --recepcion-guion-143-boton-padding-horizontal-celular: 14px;
+
+                                    --recepcion-guion-143-imagen-final-celular: 100px;
+                                }
+
+                                /* =======================================
+   RESET LOCAL
+======================================== */
+
+                                .recepcion-guion-143-wrapper,
+                                .recepcion-guion-143-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* =======================================
+   WRAPPER - FONDO DE ESCENA
+======================================== */
+
+                                .recepcion-guion-143-wrapper {
+                                    width: 100%;
+
+                                    padding: 10px;
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    background-color: #f7b2b7; /* Fondo de escena */
+
+                                    font-family: "Handlee", cursive;
+                                }
+
+                                /* =======================================
+   CONTENEDOR PRINCIPAL - MARFIL CON BORDE ROSADO
+======================================== */
+
+                                .recepcion-guion-143-container {
+                                    width: 98%;
+                                    max-width: 1200px;
+
+                                    padding: 20px;
+
+                                    background-color: #fdf5e6; /* Marfil */
+
+                                    border: 3px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: 20px;
+
+                                    box-shadow: none; /* Sin sombra para mantener limpieza */
+
+                                    text-align: center;
+                                }
+
+                                /* =======================================
+   ANIMACIÓN FADE
+======================================== */
+
+                                .recepcion-guion-143-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+                                }
+
+                                .recepcion-guion-143-fade.recepcion-guion-143-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* =======================================
+   TÍTULO - CAFÉ
+======================================== */
+
+                                .recepcion-guion-143-titulo {
+                                    margin-bottom: 40px;
+
+                                    color: #4e342e; /* Café oscuro */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--recepcion-guion-143-titulo-pc);
+
+                                    line-height: 1.3;
+
+                                    font-weight: 700;
+                                }
+
+                                /* =======================================
+   CONFIGURACIÓN GENERAL DE IMÁGENES
+======================================== */
+
+                                .recepcion-guion-143-img {
+                                    height: auto;
+
+                                    margin-right: auto;
+                                    margin-left: auto;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    border-radius: 15px;
+                                }
+
+                                /* =======================================
+   IMAGEN SUPERIOR - NEGRO PURO (cambiado)
+======================================== */
+
+                                .recepcion-guion-143-img-santuario {
+                                    width: var(--recepcion-guion-143-imagen-superior-pc);
+
+                                    max-width: var(--recepcion-guion-143-imagen-superior-pc);
+
+                                    margin-top: 15px;
+                                    margin-bottom: 10px;
+
+                                    filter: brightness(0) !important; /* NEGRO PURO */
+                                }
+
+                                /* =======================================
+   SUBTÍTULOS - CAFÉ
+======================================== */
+
+                                .recepcion-guion-143-subtitulo {
+                                    color: #4e342e; /* Café */
+
+                                    font-family: "Cinzel", serif;
+
+                                    font-weight: 700;
+                                }
+
+                                /* =======================================
+   HORA - CAFÉ
+======================================== */
+
+                                .recepcion-guion-143-hora {
+                                    margin-bottom: 30px;
+
+                                    color: #4e342e; /* Café */
+
+                                    font-size: var(--recepcion-guion-143-hora-pc);
+
+                                    line-height: 1.3;
+                                }
+
+                                /* =======================================
+   MINIMARCO DEL LUGAR - ROSA MEDIO (#E07A8A)
+======================================== */
+
+                                .recepcion-guion-143-santuario {
+                                    display: inline-block;
+
+                                    margin-bottom: 25px;
+
+                                    padding: var(--recepcion-guion-143-lugar-padding-vertical-pc)
+                                        var(--recepcion-guion-143-lugar-padding-horizontal-pc);
+
+                                    border-radius: 12px;
+
+                                    background-color: #e07a8a; /* Rosa medio del contador */
+
+                                    color: #4e342e; /* Café para legibilidad */
+
+                                    font-size: var(--recepcion-guion-143-lugar-pc);
+
+                                    line-height: 1.35;
+
+                                    box-shadow: 0 10px 22px rgba(224, 122, 138, 0.3); /* Sombra acorde */
+                                }
+
+                                /* =======================================
+   DIRECCIÓN - CAFÉ
+======================================== */
+
+                                .recepcion-guion-143-direccion {
+                                    margin-bottom: 25px;
+
+                                    color: #4e342e; /* Café */
+
+                                    font-family: "Macondo", cursive;
+
+                                    font-size: var(--recepcion-guion-143-direccion-pc);
+
+                                    line-height: 1.4;
+                                }
+
+                                /* =======================================
+   BOTÓN DE UBICACIÓN - ROSITA BAJITO
+======================================== */
+
+                                .recepcion-guion-143-btn {
+                                    min-height: 44px;
+
+                                    margin-bottom: 25px;
+
+                                    padding: var(--recepcion-guion-143-boton-padding-vertical-pc)
+                                        var(--recepcion-guion-143-boton-padding-horizontal-pc);
+
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    border: 2px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: 16px;
+
+                                    background-color: #f7c5c9; /* ROSITA BAJITO */
+
+                                    color: #4e342e !important; /* Texto café */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--recepcion-guion-143-boton-texto-pc);
+
+                                    line-height: 1.3;
+
+                                    font-weight: 700;
+
+                                    letter-spacing: 1px;
+
+                                    text-decoration: none;
+
+                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+
+                                    transition:
+                                        transform 0.25s ease,
+                                        background-color 0.25s ease,
+                                        box-shadow 0.25s ease;
+                                }
+
+                                .recepcion-guion-143-btn:hover {
+                                    transform: translateY(-2px);
+
+                                    background-color: #f0b0b6; /* Un poco más oscuro al pasar */
+
+                                    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
+                                }
+
+                                .recepcion-guion-143-btn:focus-visible {
+                                    outline: 3px solid rgba(247, 197, 201, 0.55);
+
+                                    outline-offset: 4px;
+                                }
+
+                                /* =======================================
+   IMAGEN FINAL - SIN FILTRO
+======================================== */
+
+                                .recepcion-guion-143-img-final {
+                                    width: var(--recepcion-guion-143-imagen-final-pc);
+
+                                    max-width: var(--recepcion-guion-143-imagen-final-pc);
+
+                                    margin-top: 15px;
+                                    margin-bottom: 10px;
+
+                                    filter: none;
+                                }
+
+                                /* =======================================
+   VERSIÓN PARA CELULARES
+======================================== */
+
+                                @media (max-width: 600px) {
+                                    .recepcion-guion-143-container {
+                                        width: 100%;
+                                        max-width: 100%;
+
+                                        padding: 20px;
+                                    }
+
+                                    .recepcion-guion-143-titulo {
+                                        font-size: var(--recepcion-guion-143-titulo-celular);
+                                    }
+
+                                    .recepcion-guion-143-img-santuario {
+                                        width: var(--recepcion-guion-143-imagen-superior-celular);
+
+                                        max-width: var(--recepcion-guion-143-imagen-superior-celular);
+                                    }
+
+                                    .recepcion-guion-143-hora {
+                                        font-size: var(--recepcion-guion-143-hora-celular);
+                                    }
+
+                                    .recepcion-guion-143-santuario {
+                                        padding: var(--recepcion-guion-143-lugar-padding-vertical-celular)
+                                            var(--recepcion-guion-143-lugar-padding-horizontal-celular);
+
+                                        font-size: var(--recepcion-guion-143-lugar-celular);
+                                    }
+
+                                    .recepcion-guion-143-direccion {
+                                        font-size: var(--recepcion-guion-143-direccion-celular);
+                                    }
+
+                                    .recepcion-guion-143-btn {
+                                        padding: var(--recepcion-guion-143-boton-padding-vertical-celular)
+                                            var(--recepcion-guion-143-boton-padding-horizontal-celular);
+
+                                        font-size: var(--recepcion-guion-143-boton-texto-celular);
+                                    }
+
+                                    .recepcion-guion-143-img-final {
+                                        width: var(--recepcion-guion-143-imagen-final-celular);
+
+                                        max-width: var(--recepcion-guion-143-imagen-final-celular);
+                                    }
+                                }
+
+                                /* =======================================
+   MOVIMIENTO REDUCIDO
+======================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .recepcion-guion-143-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+
+                                    .recepcion-guion-143-btn {
+                                        transition: none;
+                                    }
+                                }
+        
+
+
+                                .itinerario-p8-escena {
+                                    width: 100%;
+                                    background: #f7b2b7; /* Fondo de escena */
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    padding: 30px 15px;
+                                    box-sizing: border-box;
+                                    overflow-x: hidden;
+                                }
+
+                                .itinerario-p8-texto {
+                                    font-family: "Handlee", cursive;
+                                    font-size: 35px; /* Tamaño original restaurado */
+                                    font-weight: 700;
+                                    color: #4e342e; /* Café oscuro */
+                                    margin-bottom: 30px; /* Espaciado original */
+                                    text-align: center;
+                                }
+
+                                /* TIMELINE - LÍNEA SIEMPRE CENTRADA */
+                                .itinerario-p8-timeline {
+                                    position: relative;
+                                    width: 100%;
+                                    max-width: 1200px;
+                                }
+
+                                .itinerario-p8-timeline::before {
+                                    content: "";
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 0;
+                                    width: 4px;
+                                    height: 100%;
+                                    background: #e07a8a; /* Rosa medio */
+                                    transform: translateX(-50%);
+                                }
+
+                                .itinerario-p8-item {
+                                    width: 50%;
+                                    padding: 15px 25px;
+                                    box-sizing: border-box;
+                                    position: relative;
+                                    opacity: 0;
+                                    transition: all 0.9s ease;
+                                }
+
+                                .itinerario-p8-item.left {
+                                    text-align: right;
+                                    transform: translateX(-50px);
+                                }
+
+                                .itinerario-p8-item.right {
+                                    margin-left: 50%;
+                                    text-align: left;
+                                    transform: translateX(50px);
+                                }
+
+                                .itinerario-p8-item.visible {
+                                    opacity: 1;
+                                    transform: translateX(0);
+                                }
+
+                                .itinerario-p8-item .contenido {
+                                    width: 220px;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                }
+
+                                .icono-evento {
+                                    width: 90px;
+                                    height: 90px;
+                                    object-fit: contain;
+                                    display: block;
+                                    margin: 0 auto 8px auto;
+                                    filter: brightness(0) !important; /* Iconos negros */
+                                }
+
+                                .itinerario-p8-item::after {
+                                    content: "";
+                                    position: absolute;
+                                    top: 48px;
+                                    width: 18px;
+                                    height: 18px;
+                                    background: #e07a8a; /* Rosa medio */
+                                    border-radius: 50%;
+                                    border: 3px solid #fdf5e6;
+                                }
+
+                                .itinerario-p8-item.left::after {
+                                    right: -9px;
+                                }
+
+                                .itinerario-p8-item.right::after {
+                                    left: -9px;
+                                }
+
+                                .evento {
+                                    font-family: "Handlee", cursive;
+                                    font-size: 26px;
+                                    color: #4e342e; /* Café oscuro */
+                                    font-weight: 700;
+                                    line-height: 1.3;
+                                }
+
+                                .hora {
+                                    font-family: "Cinzel", serif;
+                                    font-size: 22px;
+                                    color: #e07a8a; /* Rosa medio */
+                                    font-weight: 600;
+                                    margin-top: 4px;
+                                }
+
+                                /* =======================================
+     RESPONSIVE
+  ======================================== */
+
+                                @media (max-width: 700px) {
+                                    .itinerario-p8-texto {
+                                        font-size: 28px; /* Más grande que antes en móvil */
+                                        margin-bottom: 25px;
+                                    }
+
+                                    .itinerario-p8-item {
+                                        width: 50%;
+                                        padding: 12px 15px;
+                                    }
+
+                                    .itinerario-p8-item .contenido {
+                                        width: 160px;
+                                    }
+
+                                    .icono-evento {
+                                        width: 70px;
+                                        height: 70px;
+                                    }
+
+                                    .evento {
+                                        font-size: 20px;
+                                    }
+
+                                    .hora {
+                                        font-size: 18px;
+                                    }
+
+                                    .itinerario-p8-item::after {
+                                        width: 16px;
+                                        height: 16px;
+                                        top: 38px;
+                                    }
+
+                                    .itinerario-p8-item.left::after {
+                                        right: -8px;
+                                    }
+
+                                    .itinerario-p8-item.right::after {
+                                        left: -8px;
+                                    }
+                                }
+
+                                @media (max-width: 500px) {
+                                    .itinerario-p8-item .contenido {
+                                        width: 130px;
+                                    }
+                                    .icono-evento {
+                                        width: 60px;
+                                        height: 60px;
+                                    }
+                                    .evento {
+                                        font-size: 17px;
+                                    }
+                                    .hora {
+                                        font-size: 15px;
+                                    }
+                                    .itinerario-p8-item {
+                                        padding: 10px 10px;
+                                    }
+                                    .itinerario-p8-item::after {
+                                        width: 14px;
+                                        height: 14px;
+                                        top: 32px;
+                                    }
+                                }
+                            
+
+
+                                /* =========================================
+   RESET LOCAL
+========================================= */
+
+                                .vestimenta-145-wrapper,
+                                .vestimenta-145-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* =========================================
+   WRAPPER — ROSA PRINCIPAL
+========================================= */
+
+                                .vestimenta-145-wrapper {
+                                    width: 100%;
+                                    background-color: #f7b2b7;
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 10px;
+                                    font-family: "Handlee", cursive;
+                                }
+
+                                /* =========================================
+   CONTENEDOR — MARFIL
+========================================= */
+
+                                .vestimenta-145-container {
+                                    width: 98%;
+                                    max-width: 1200px;
+                                    padding: 20px;
+                                    background-color: #fdf5e6;
+                                    border: 3px solid #fce4e6;
+                                    border-radius: 20px;
+                                    box-shadow: none;
+                                    text-align: center;
+                                }
+
+                                /* =========================================
+   ANIMACIÓN
+========================================= */
+
+                                .vestimenta-145-fade {
+                                    opacity: 0;
+                                    transform: translateY(20px);
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+                                }
+
+                                .vestimenta-145-fade.vestimenta-145-visible {
+                                    opacity: 1;
+                                    transform: translateY(0);
+                                }
+
+                                /* =========================================
+   TÍTULO — CAFÉ OSCURO
+========================================= */
+
+                                .vestimenta-145-titulo {
+                                    font-size: 35px;
+                                    font-weight: 700;
+                                    color: #4e342e;
+                                    margin-bottom: 40px;
+                                    line-height: 1.3;
+                                }
+
+                                /* =========================================
+   ETIQUETA — ROSA MEDIO
+========================================= */
+
+                                .vestimenta-145-etiqueta {
+                                    display: inline-block;
+                                    padding: 12px 18px;
+                                    background-color: #e07a8a;
+                                    color: #4e342e;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    font-family: "Cinzel", serif;
+                                    letter-spacing: 1px;
+                                    line-height: 1.35;
+                                    border-radius: 12px;
+                                    margin-bottom: 15px;
+                                    box-shadow: 0 10px 22px rgba(224, 122, 138, 0.3);
+                                }
+
+                                /* =========================================
+   ICONO — NEGRO PURO
+========================================= */
+
+                                .vestimenta-145-icono {
+                                    width: 70px;
+                                    max-width: 70px;
+                                    height: auto;
+                                    margin: 15px auto;
+                                    display: block;
+                                    object-fit: contain;
+                                }
+
+                                .vestimenta-145-icono-capa {
+                                    filter: brightness(0) !important;
+                                }
+
+                                /* =========================================
+   TEXTO — CAFÉ OSCURO
+========================================= */
+
+                                .vestimenta-145-texto {
+                                    max-width: 650px;
+                                    margin: 0 auto 20px;
+                                    font-size: 30px;
+                                    color: #4e342e;
+                                    line-height: 1.4;
+                                }
+
+                                .vestimenta-145-texto strong {
+                                    color: #4e342e;
+                                    font-weight: 700;
+                                }
+
+                                /* =========================================
+   IMAGEN DECORATIVA FINAL
+========================================= */
+
+                                .vestimenta-145-img {
+                                    width: 200px;
+                                    max-width: 200px;
+                                    height: auto;
+                                    margin: 20px auto 0;
+                                    display: block;
+                                    object-fit: contain;
+                                    border-radius: 0;
+                                    filter: none;
+                                }
+
+                                /* =========================================
+   MOBILE
+========================================= */
+
+                                @media (max-width: 600px) {
+                                    .vestimenta-145-container {
+                                        width: 100%;
+                                        max-width: 100%;
+                                        padding: 20px;
+                                    }
+
+                                    .vestimenta-145-titulo {
+                                        font-size: 20px;
+                                    }
+
+                                    .vestimenta-145-etiqueta {
+                                        font-size: 13px;
+                                    }
+
+                                    .vestimenta-145-texto {
+                                        font-size: 19px;
+                                    }
+
+                                    .vestimenta-145-img {
+                                        width: 200px;
+                                        max-width: 100px;
+                                    }
+                                }
+
+                                /* =========================================
+   MOVIMIENTO REDUCIDO
+========================================= */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .vestimenta-145-fade {
+                                        opacity: 1;
+                                        transform: none;
+                                        transition: none;
+                                    }
+                                }
+
+
+                                /* =========================================
+   RESET LOCAL
+========================================= */
+
+                                .mesa-145-wrapper,
+                                .mesa-145-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* =========================================
+   WRAPPER — ROSA PRINCIPAL
+========================================= */
+
+                                .mesa-145-wrapper {
+                                    width: 100%;
+
+                                    padding: 10px;
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    background-color: #f7b2b7;
+
+                                    font-family: "Handlee", cursive;
+                                }
+
+                                /* =========================================
+   CONTENEDOR — MARFIL
+========================================= */
+
+                                .mesa-145-container {
+                                    width: 98%;
+                                    max-width: 1200px;
+
+                                    padding: 20px;
+
+                                    background-color: #fdf5e6;
+
+                                    border: 3px solid #fce4e6;
+                                    border-radius: 20px;
+
+                                    box-shadow: none;
+
+                                    text-align: center;
+                                }
+
+                                /* =========================================
+   TÍTULO — CAFÉ OSCURO
+========================================= */
+
+                                .mesa-145-titulo {
+                                    margin-bottom: 40px;
+
+                                    color: #4e342e;
+
+                                    font-size: 35px;
+                                    font-weight: 700;
+
+                                    line-height: 1.3;
+                                }
+
+                                /* =========================================
+   TEXTO INTRODUCTORIO
+========================================= */
+
+                                .mesa-145-subtitulo {
+                                    max-width: 650px;
+
+                                    margin: 0 auto 25px;
+
+                                    color: #4e342e;
+
+                                    font-size: 22px;
+                                    line-height: 1.5;
+                                }
+
+                                /* =========================================
+   SECCIÓN
+========================================= */
+
+                                .mesa-145-seccion {
+                                    margin-bottom: 30px;
+                                }
+
+                                /* =========================================
+   ETIQUETA — ROSA MEDIO
+========================================= */
+
+                                .mesa-145-etiqueta {
+                                    display: inline-block;
+
+                                    margin-bottom: 12px;
+
+                                    padding: 12px 18px;
+
+                                    background-color: #e07a8a;
+
+                                    border-radius: 12px;
+
+                                    color: #4e342e;
+
+                                    font-family: "Cinzel", serif;
+
+                                    font-size: 13px;
+                                    font-weight: 700;
+                                    line-height: 1.35;
+
+                                    letter-spacing: 1px;
+
+                                    box-shadow: 0 10px 22px rgba(224, 122, 138, 0.3);
+                                }
+
+                                /* =========================================
+   ÍCONO — NEGRO PURO
+========================================= */
+
+                                .mesa-145-img {
+                                    width: 70px;
+                                    max-width: 70px;
+                                    height: auto;
+
+                                    margin: 10px auto;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    border-radius: 12px;
+
+                                    filter: brightness(0) !important;
+                                }
+
+                                /* =========================================
+   TEXTO EXPLICATIVO — CAFÉ
+========================================= */
+
+                                .mesa-145-explicacion {
+                                    max-width: 520px;
+
+                                    margin: 10px auto 0;
+
+                                    color: #4e342e;
+
+                                    font-size: 20px;
+                                    line-height: 1.5;
+                                }
+
+                                /* =========================================
+   IMAGEN DECORATIVA FINAL
+========================================= */
+
+                                .mesa-145-img-final {
+                                    width: 200px;
+                                    max-width: 200px;
+                                    height: auto;
+
+                                    margin: 20px auto 0;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    filter: none;
+                                }
+
+                                /* =========================================
+   ANIMACIÓN
+========================================= */
+
+                                .mesa-145-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+                                }
+
+                                .mesa-145-fade.mesa-145-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* =========================================
+   VERSIÓN PARA CELULARES
+========================================= */
+
+                                @media (max-width: 600px) {
+                                    .mesa-145-container {
+                                        width: 100%;
+                                        max-width: 100%;
+
+                                        padding: 20px;
+                                    }
+
+                                    .mesa-145-titulo {
+                                        font-size: 20px;
+                                    }
+
+                                    .mesa-145-subtitulo {
+                                        font-size: 19px;
+                                    }
+
+                                    .mesa-145-explicacion {
+                                        font-size: 19px;
+                                    }
+
+                                    .mesa-145-img-final {
+                                        width: 200px;
+                                        max-width: 100px;
+                                    }
+                                }
+
+                                /* =========================================
+   MOVIMIENTO REDUCIDO
+========================================= */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .mesa-145-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+                                }
+
+
+
+                                /* ==================================================
+   TABLA DE MEDIDAS PARA COMPUTADORAS
+================================================== */
+
+                                .buzon143-wrapper {
+                                    /* CONTENEDOR */
+
+                                    --buzon143-ancho-contenedor-pc: 98%;
+                                    --buzon143-ancho-maximo-pc: 1200px;
+                                    --buzon143-padding-vertical-pc: 20px;
+                                    --buzon143-padding-horizontal-pc: 20px;
+
+                                    /* TÍTULO */
+
+                                    --buzon143-titulo-tamano-pc: 35px;
+                                    --buzon143-titulo-espacio-inferior-pc: 40px;
+
+                                    /* PRIMERA URL · ÍCONO DEL BUZÓN */
+
+                                    --buzon143-icono-ancho-pc: 70px;
+                                    --buzon143-icono-espacio-superior-pc: 15px;
+                                    --buzon143-icono-espacio-inferior-pc: 20px;
+
+                                    /* TEXTO */
+
+                                    --buzon143-texto-tamano-pc: 30px;
+                                    --buzon143-texto-interlineado-pc: 1.4;
+                                    --buzon143-texto-ancho-maximo-pc: 700px;
+                                    --buzon143-texto-espacio-inferior-pc: 25px;
+
+                                    /* BOTÓN */
+
+                                    --buzon143-boton-tamano-pc: 12px;
+                                    --buzon143-boton-padding-vertical-pc: 8px;
+                                    --buzon143-boton-padding-horizontal-pc: 18px;
+                                    --buzon143-boton-espacio-inferior-pc: 25px;
+
+                                    /* ÚLTIMA URL · GIF FINAL
+     SE CONSERVA SU TAMAÑO */
+
+                                    --buzon143-imagen-final-ancho-pc: 100px;
+                                    --buzon143-imagen-final-espacio-superior-pc: 15px;
+                                    --buzon143-imagen-final-espacio-inferior-pc: 10px;
+
+                                    width: 100%;
+
+                                    padding: 10px;
+
+                                    background-color: #f7b2b7; /* Fondo de escena */
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    box-sizing: border-box;
+
+                                    font-family: "Handlee", cursive;
+
+                                    overflow: hidden;
+                                }
+
+                                /* ==================================================
+   AISLAMIENTO DEL BLOQUE
+================================================== */
+
+                                .buzon143-wrapper,
+                                .buzon143-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* ==================================================
+   CONTENEDOR PRINCIPAL - MARFIL CON BORDE ROSADO
+================================================== */
+
+                                .buzon143-container {
+                                    width: var(--buzon143-ancho-contenedor-pc);
+
+                                    max-width: var(--buzon143-ancho-maximo-pc);
+
+                                    padding: var(--buzon143-padding-vertical-pc) var(--buzon143-padding-horizontal-pc);
+
+                                    background-color: #fdf5e6; /* Marfil */
+
+                                    border: 3px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: 20px;
+
+                                    box-shadow: none; /* Sin sombra */
+
+                                    text-align: center;
+
+                                    overflow: hidden;
+                                }
+
+                                /* ==================================================
+   TÍTULO - CAFÉ
+================================================== */
+
+                                .buzon143-titulo {
+                                    margin-bottom: var(--buzon143-titulo-espacio-inferior-pc);
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--buzon143-titulo-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: 1.3;
+
+                                    color: #4e342e; /* Café oscuro */
+                                }
+
+                                /* ==================================================
+   PRIMERA URL · ÍCONO DEL BUZÓN - NEGRO PURO
+================================================== */
+
+                                .buzon143-img-icono {
+                                    width: var(--buzon143-icono-ancho-pc);
+
+                                    max-width: var(--buzon143-icono-ancho-pc);
+
+                                    height: auto;
+
+                                    margin: var(--buzon143-icono-espacio-superior-pc) auto
+                                        var(--buzon143-icono-espacio-inferior-pc);
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    border-radius: 15px;
+
+                                    filter: brightness(0) !important; /* Icono negro */
+                                }
+
+                                /* ==================================================
+   TEXTO PRINCIPAL - CAFÉ
+================================================== */
+
+                                .buzon143-texto {
+                                    width: 100%;
+
+                                    max-width: var(--buzon143-texto-ancho-maximo-pc);
+
+                                    margin: 0 auto var(--buzon143-texto-espacio-inferior-pc);
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--buzon143-texto-tamano-pc);
+
+                                    line-height: var(--buzon143-texto-interlineado-pc);
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   BOTÓN DE WHATSAPP - ROSITA BAJITO
+================================================== */
+
+                                .buzon143-btn {
+                                    min-height: 44px;
+
+                                    margin-bottom: var(--buzon143-boton-espacio-inferior-pc);
+
+                                    padding: var(--buzon143-boton-padding-vertical-pc)
+                                        var(--buzon143-boton-padding-horizontal-pc);
+
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    background-color: #f7c5c9; /* Rosita bajito */
+
+                                    border: 2px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: 16px;
+
+                                    color: #4e342e !important; /* Texto café */
+
+                                    font-family: "Cinzel", serif;
+
+                                    font-size: var(--buzon143-boton-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: 1.2;
+
+                                    letter-spacing: 1px;
+
+                                    text-decoration: none;
+
+                                    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+
+                                    transition:
+                                        background-color 0.3s ease,
+                                        transform 0.3s ease,
+                                        box-shadow 0.3s ease;
+                                }
+
+                                .buzon143-btn:hover {
+                                    background-color: #f0b0b6; /* Hover más oscuro */
+
+                                    transform: translateY(-2px);
+
+                                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+                                }
+
+                                .buzon143-btn:focus-visible {
+                                    outline: 3px solid rgba(247, 197, 201, 0.45);
+
+                                    outline-offset: 4px;
+                                }
+
+                                /* ==================================================
+   ÚLTIMA URL · GIF FINAL - SIN FILTRO
+================================================== */
+
+                                .buzon143-img-final {
+                                    width: var(--buzon143-imagen-final-ancho-pc);
+
+                                    max-width: var(--buzon143-imagen-final-ancho-pc);
+
+                                    height: auto;
+
+                                    margin: var(--buzon143-imagen-final-espacio-superior-pc) auto
+                                        var(--buzon143-imagen-final-espacio-inferior-pc);
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    border-radius: 15px;
+
+                                    filter: none; /* Sin filtro */
+                                }
+
+                                /* ==================================================
+   ANIMACIÓN
+================================================== */
+
+                                .buzon143-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+
+                                    will-change: opacity, transform;
+                                }
+
+                                .buzon143-fade.buzon143-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* ==================================================
+   TABLA DE MEDIDAS PARA CELULARES
+================================================== */
+
+                                @media (max-width: 600px) {
+                                    .buzon143-wrapper {
+                                        /* CONTENEDOR */
+
+                                        --buzon143-ancho-contenedor-movil: 100%;
+                                        --buzon143-ancho-maximo-movil: 100%;
+                                        --buzon143-padding-vertical-movil: 20px;
+                                        --buzon143-padding-horizontal-movil: 20px;
+
+                                        /* TÍTULO */
+
+                                        --buzon143-titulo-tamano-movil: 20px;
+                                        --buzon143-titulo-espacio-inferior-movil: 32px;
+
+                                        /* PRIMERA URL · ÍCONO DEL BUZÓN */
+
+                                        --buzon143-icono-ancho-movil: 70px;
+                                        --buzon143-icono-espacio-superior-movil: 12px;
+                                        --buzon143-icono-espacio-inferior-movil: 20px;
+
+                                        /* TEXTO */
+
+                                        --buzon143-texto-tamano-movil: 19px;
+                                        --buzon143-texto-interlineado-movil: 1.4;
+                                        --buzon143-texto-padding-horizontal-movil: 20px;
+                                        --buzon143-texto-espacio-inferior-movil: 25px;
+
+                                        /* BOTÓN */
+
+                                        --buzon143-boton-tamano-movil: 12px;
+                                        --buzon143-boton-padding-vertical-movil: 8px;
+                                        --buzon143-boton-padding-horizontal-movil: 18px;
+                                        --buzon143-boton-espacio-inferior-movil: 25px;
+
+                                        /* ÚLTIMA URL · GIF FINAL
+       SE CONSERVA SU TAMAÑO */
+
+                                        --buzon143-imagen-final-ancho-movil: 100px;
+                                        --buzon143-imagen-final-espacio-superior-movil: 12px;
+                                        --buzon143-imagen-final-espacio-inferior-movil: 10px;
+                                    }
+
+                                    /* CONTENEDOR PRINCIPAL */
+
+                                    .buzon143-container {
+                                        width: var(--buzon143-ancho-contenedor-movil);
+
+                                        max-width: var(--buzon143-ancho-maximo-movil);
+
+                                        padding: var(--buzon143-padding-vertical-movil)
+                                            var(--buzon143-padding-horizontal-movil);
+
+                                        border: 3px solid #fce4e6; /* Mantiene borde en móvil */
+                                    }
+
+                                    /* TÍTULO */
+
+                                    .buzon143-titulo {
+                                        margin-bottom: var(--buzon143-titulo-espacio-inferior-movil);
+
+                                        font-size: var(--buzon143-titulo-tamano-movil);
+                                    }
+
+                                    /* PRIMERA URL · ÍCONO */
+
+                                    .buzon143-img-icono {
+                                        width: var(--buzon143-icono-ancho-movil);
+
+                                        max-width: var(--buzon143-icono-ancho-movil);
+
+                                        margin: var(--buzon143-icono-espacio-superior-movil) auto
+                                            var(--buzon143-icono-espacio-inferior-movil);
+                                    }
+
+                                    /* TEXTO */
+
+                                    .buzon143-texto {
+                                        max-width: none;
+
+                                        margin-bottom: var(--buzon143-texto-espacio-inferior-movil);
+
+                                        padding-left: var(--buzon143-texto-padding-horizontal-movil);
+
+                                        padding-right: var(--buzon143-texto-padding-horizontal-movil);
+
+                                        font-size: var(--buzon143-texto-tamano-movil);
+
+                                        line-height: var(--buzon143-texto-interlineado-movil);
+                                    }
+
+                                    /* BOTÓN */
+
+                                    .buzon143-btn {
+                                        margin-bottom: var(--buzon143-boton-espacio-inferior-movil);
+
+                                        padding: var(--buzon143-boton-padding-vertical-movil)
+                                            var(--buzon143-boton-padding-horizontal-movil);
+
+                                        font-size: var(--buzon143-boton-tamano-movil);
+                                    }
+
+                                    /* GIF FINAL */
+
+                                    .buzon143-img-final {
+                                        width: var(--buzon143-imagen-final-ancho-movil);
+
+                                        max-width: var(--buzon143-imagen-final-ancho-movil);
+
+                                        margin: var(--buzon143-imagen-final-espacio-superior-movil) auto
+                                            var(--buzon143-imagen-final-espacio-inferior-movil);
+                                    }
+                                }
+
+                                /* ==================================================
+   ACCESIBILIDAD
+================================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .buzon143-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+
+                                    .buzon143-btn {
+                                        transition: none;
+                                    }
+                                }
+                        
+
+                                /* ==================================================
+   TABLA DE MEDIDAS PARA COMPUTADORAS
+================================================== */
+
+                                .confirmacion-pases-105-bloque {
+                                    /* MARCO DE PASES */
+
+                                    --pases-marco-ancho-pc: 98%;
+                                    --pases-marco-ancho-maximo-pc: 1200px;
+                                    --pases-marco-padding-vertical-pc: 20px;
+                                    --pases-marco-padding-horizontal-pc: 20px;
+                                    --pases-marco-radio-pc: 20px;
+
+                                    /* TÍTULO PASES */
+
+                                    --pases-titulo-tamano-pc: 40px;
+                                    --pases-titulo-espacio-inferior-pc: 18px;
+
+                                    /* TEXTO HEMOS RESERVADO */
+
+                                    --pases-texto-superior-tamano-pc: 34px;
+                                    --pases-texto-superior-espacio-pc: 25px;
+
+                                    /* NÚMERO DE PASES */
+
+                                    --pases-numero-tamano-pc: 60px;
+                                    --pases-numero-padding-vertical-pc: 14px;
+                                    --pases-numero-padding-horizontal-pc: 30px;
+                                    --pases-numero-radio-pc: 18px;
+
+                                    /* TEXTO LUGARES EN TU HONOR */
+
+                                    --pases-texto-inferior-tamano-pc: 34px;
+                                    --pases-texto-inferior-espacio-pc: 25px;
+
+                                    /* SEPARADORES LATERALES */
+
+                                    --pases-separador-alto-pc: 240px;
+                                    --pases-separador-ancho-pc: 28px;
+                                    --pases-separador-distancia-pc: 2px;
+                                    --pases-separador-rombo-pc: 16px;
+
+                                    /* ================================================
+     MARCO DE CONFIRMACIÓN
+  ================================================= */
+
+                                    --confirmacion-marco-ancho-pc: 98%;
+                                    --confirmacion-marco-ancho-maximo-pc: 1200px;
+                                    --confirmacion-marco-padding-vertical-pc: 20px;
+                                    --confirmacion-marco-padding-horizontal-pc: 20px;
+                                    --confirmacion-marco-radio-pc: 20px;
+                                    --confirmacion-espacio-elementos-pc: 30px;
+
+                                    /* TÍTULO CONFIRMACIÓN */
+
+                                    --confirmacion-titulo-tamano-pc: 35px;
+
+                                    /* PRIMERA URL · ÍCONO */
+
+                                    --confirmacion-icono-ancho-pc: 70px;
+
+                                    /* TEXTO PRINCIPAL */
+
+                                    --confirmacion-texto-tamano-pc: 30px;
+                                    --confirmacion-texto-ancho-maximo-pc: 700px;
+                                    --confirmacion-texto-padding-horizontal-pc: 0px;
+
+                                    /* ETIQUETA DEL SELECTOR */
+
+                                    --confirmacion-label-tamano-pc: 16px;
+                                    --confirmacion-label-espaciado-pc: 2px;
+                                    --confirmacion-label-margen-inferior-pc: 10px;
+
+                                    /* SELECTOR */
+
+                                    --confirmacion-selector-tamano-pc: 22px;
+                                    --confirmacion-selector-ancho-maximo-pc: 500px;
+                                    --confirmacion-selector-padding-vertical-pc: 14px;
+                                    --confirmacion-selector-padding-horizontal-pc: 18px;
+                                    --confirmacion-selector-radio-pc: 18px;
+
+                                    /* BOTÓN */
+
+                                    --confirmacion-boton-tamano-pc: 15px;
+                                    --confirmacion-boton-padding-vertical-pc: 12px;
+                                    --confirmacion-boton-padding-horizontal-pc: 22px;
+                                    --confirmacion-boton-radio-pc: 18px;
+
+                                    /* DESPEDIDA */
+
+                                    --confirmacion-despedida-tamano-pc: 24px;
+                                    --confirmacion-despedida-ancho-maximo-pc: 650px;
+                                    --confirmacion-despedida-padding-horizontal-pc: 0px;
+
+                                    /* ÚLTIMA URL · IMAGEN FINAL */
+
+                                    --confirmacion-imagen-final-ancho-pc: 100px;
+
+                                    width: 100%;
+
+                                    margin: 0;
+                                    padding: 0;
+
+                                    background: #f7b2b7; /* Fondo de escena */
+
+                                    font-family: "Handlee", cursive;
+
+                                    overflow: hidden;
+                                }
+
+                                /* ==================================================
+   AISLAMIENTO
+================================================== */
+
+                                .confirmacion-pases-105-bloque,
+                                .confirmacion-pases-105-bloque * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* ==================================================
+   ESCENA DE PASES
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-escena {
+                                    width: 100%;
+
+                                    padding: 10px;
+
+                                    background: #f7b2b7; /* Fondo de escena */
+
+                                    display: flex;
+                                    justify-content: center;
+                                }
+
+                                /* ==================================================
+   MARCO DE PASES
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-contenedor {
+                                    position: relative;
+
+                                    width: var(--pases-marco-ancho-pc);
+
+                                    max-width: var(--pases-marco-ancho-maximo-pc);
+
+                                    padding: var(--pases-marco-padding-vertical-pc)
+                                        var(--pases-marco-padding-horizontal-pc);
+
+                                    background: #fdf5e6; /* Marfil */
+
+                                    border: 3px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: var(--pases-marco-radio-pc);
+
+                                    box-shadow: none; /* Sin sombra */
+
+                                    text-align: center;
+
+                                    overflow: hidden;
+                                }
+
+                                /* ==================================================
+   SEPARADORES LATERALES - ROSA MEDIO Y CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-separador {
+                                    position: absolute;
+
+                                    top: 50%;
+
+                                    width: var(--pases-separador-ancho-pc);
+
+                                    height: var(--pases-separador-alto-pc);
+
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    transform: translateY(-50%);
+
+                                    pointer-events: none;
+                                }
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-separador-izquierdo {
+                                    left: var(--pases-separador-distancia-pc);
+                                }
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-separador-derecho {
+                                    right: var(--pases-separador-distancia-pc);
+                                }
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-separador::before {
+                                    content: "";
+
+                                    position: absolute;
+
+                                    width: 2px;
+                                    height: 100%;
+
+                                    background: linear-gradient(
+                                        to bottom,
+                                        transparent,
+                                        rgba(224, 122, 138, 0.45) 15%,
+                                        #e07a8a 50%,
+                                        rgba(224, 122, 138, 0.45) 85%,
+                                        transparent
+                                    );
+
+                                    border-radius: 20px;
+                                }
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-separador::after {
+                                    content: "";
+
+                                    position: absolute;
+
+                                    width: var(--pases-separador-rombo-pc);
+
+                                    height: var(--pases-separador-rombo-pc);
+
+                                    background: #e07a8a; /* Rosa medio */
+
+                                    border: 2px solid #4e342e; /* Café */
+
+                                    border-radius: 4px;
+
+                                    transform: rotate(45deg);
+
+                                    box-shadow: 0 0 12px rgba(224, 122, 138, 0.25);
+                                }
+
+                                /* ==================================================
+   TÍTULO PASES - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-titulo {
+                                    margin-bottom: var(--pases-titulo-espacio-inferior-pc);
+
+                                    padding: 0 30px;
+
+                                    font-size: var(--pases-titulo-tamano-pc);
+
+                                    line-height: 1.3;
+
+                                    font-weight: 700;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   TEXTO SUPERIOR - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-arriba {
+                                    margin-bottom: var(--pases-texto-superior-espacio-pc);
+
+                                    padding: 0 30px;
+
+                                    font-size: var(--pases-texto-superior-tamano-pc);
+
+                                    font-weight: 600;
+
+                                    line-height: 1.4;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   RECUADRO DEL NÚMERO - ROSA MEDIO
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-numero-wrap {
+                                    padding: var(--pases-numero-padding-vertical-pc)
+                                        var(--pases-numero-padding-horizontal-pc);
+
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    background: #e07a8a; /* Rosa medio */
+
+                                    border-radius: var(--pases-numero-radio-pc);
+
+                                    box-shadow: 0 8px 20px rgba(224, 122, 138, 0.25);
+                                }
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-numero {
+                                    font-size: var(--pases-numero-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: 1.1;
+
+                                    color: #4e342e; /* Café para contraste */
+                                }
+
+                                /* ==================================================
+   TEXTO INFERIOR - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-abajo {
+                                    margin-top: var(--pases-texto-inferior-espacio-pc);
+
+                                    padding: 0 30px;
+
+                                    font-size: var(--pases-texto-inferior-tamano-pc);
+
+                                    font-weight: 600;
+
+                                    line-height: 1.4;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   ESCENA DE CONFIRMACIÓN
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-wrapper {
+                                    width: 100%;
+
+                                    padding: 10px;
+
+                                    background: #f7b2b7; /* Fondo de escena */
+
+                                    display: flex;
+                                    justify-content: center;
+                                }
+
+                                /* ==================================================
+   MARCO DE CONFIRMACIÓN
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-container {
+                                    position: relative;
+
+                                    width: var(--confirmacion-marco-ancho-pc);
+
+                                    max-width: var(--confirmacion-marco-ancho-maximo-pc);
+
+                                    padding: var(--confirmacion-marco-padding-vertical-pc)
+                                        var(--confirmacion-marco-padding-horizontal-pc);
+
+                                    background: #fdf5e6; /* Marfil */
+
+                                    border: 3px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: var(--confirmacion-marco-radio-pc);
+
+                                    box-shadow: none; /* Sin sombra */
+
+                                    text-align: center;
+
+                                    overflow: hidden;
+                                }
+
+                                .confirmacion-pases-105-bloque .confirmacion145-container > * {
+                                    position: relative;
+
+                                    z-index: 1;
+
+                                    margin-bottom: var(--confirmacion-espacio-elementos-pc);
+                                }
+
+                                .confirmacion-pases-105-bloque .confirmacion145-container > *:last-child {
+                                    margin-bottom: 0;
+                                }
+
+                                /* ==================================================
+   TÍTULO CONFIRMACIÓN - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-titulo {
+                                    font-size: var(--confirmacion-titulo-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: 1.3;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   PRIMERA URL · ÍCONO - NEGRO PURO
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-img-icono {
+                                    width: var(--confirmacion-icono-ancho-pc);
+
+                                    max-width: var(--confirmacion-icono-ancho-pc);
+
+                                    height: auto;
+
+                                    margin-left: auto;
+                                    margin-right: auto;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    filter: brightness(0) !important; /* Negro */
+                                }
+
+                                /* ==================================================
+   TEXTO PRINCIPAL - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-texto {
+                                    width: 100%;
+
+                                    max-width: var(--confirmacion-texto-ancho-maximo-pc);
+
+                                    margin-left: auto;
+                                    margin-right: auto;
+
+                                    padding-left: var(--confirmacion-texto-padding-horizontal-pc);
+
+                                    padding-right: var(--confirmacion-texto-padding-horizontal-pc);
+
+                                    font-size: var(--confirmacion-texto-tamano-pc);
+
+                                    line-height: 1.4;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   ETIQUETA DEL SELECTOR - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-select-label {
+                                    margin-bottom: var(--confirmacion-label-margen-inferior-pc);
+
+                                    display: block;
+
+                                    font-family: "Cinzel", serif;
+
+                                    font-size: var(--confirmacion-label-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: 1.4;
+
+                                    letter-spacing: var(--confirmacion-label-espaciado-pc);
+
+                                    color: #4e342e; /* Café */
+
+                                    text-transform: uppercase;
+                                }
+
+                                /* ==================================================
+   SELECTOR
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-select {
+                                    width: 100%;
+
+                                    max-width: var(--confirmacion-selector-ancho-maximo-pc);
+
+                                    min-height: 50px;
+
+                                    padding: var(--confirmacion-selector-padding-vertical-pc)
+                                        var(--confirmacion-selector-padding-horizontal-pc);
+
+                                    background: #fff5e6;
+
+                                    border: 2px solid #e07a8a; /* Rosa medio */
+
+                                    border-radius: var(--confirmacion-selector-radio-pc);
+
+                                    color: #4e342e; /* Café */
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--confirmacion-selector-tamano-pc);
+
+                                    outline: none;
+
+                                    cursor: pointer;
+                                }
+
+                                .confirmacion-pases-105-bloque .confirmacion145-select:focus {
+                                    border-color: #4e342e; /* Café */
+
+                                    box-shadow: 0 0 0 4px rgba(78, 52, 46, 0.14);
+                                }
+
+                                /* ==================================================
+   BOTÓN - ROSITA BAJITO
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-btn {
+                                    min-height: 44px;
+
+                                    padding: var(--confirmacion-boton-padding-vertical-pc)
+                                        var(--confirmacion-boton-padding-horizontal-pc);
+
+                                    background: #f7c5c9; /* Rosita bajito */
+
+                                    border: 2px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: var(--confirmacion-boton-radio-pc);
+
+                                    display: inline-flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    color: #4e342e !important; /* Café */
+
+                                    font-family: "Cinzel", serif;
+
+                                    font-size: var(--confirmacion-boton-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: 1.2;
+
+                                    letter-spacing: 1px;
+
+                                    text-decoration: none;
+
+                                    box-shadow: 0 4px 10px rgba(247, 197, 201, 0.35);
+
+                                    transition:
+                                        background-color 0.3s ease,
+                                        transform 0.3s ease,
+                                        box-shadow 0.3s ease;
+                                }
+
+                                .confirmacion-pases-105-bloque .confirmacion145-btn:hover {
+                                    background: #f0b0b6; /* Hover más oscuro */
+
+                                    transform: translateY(-2px);
+
+                                    box-shadow: 0 7px 15px rgba(247, 197, 201, 0.45);
+                                }
+
+                                .confirmacion-pases-105-bloque .confirmacion145-btn:focus-visible {
+                                    outline: 3px solid rgba(78, 52, 46, 0.45);
+
+                                    outline-offset: 4px;
+                                }
+
+                                /* ==================================================
+   DESPEDIDA - CAFÉ
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-despedida {
+                                    width: 100%;
+
+                                    max-width: var(--confirmacion-despedida-ancho-maximo-pc);
+
+                                    margin-left: auto;
+                                    margin-right: auto;
+
+                                    padding-left: var(--confirmacion-despedida-padding-horizontal-pc);
+
+                                    padding-right: var(--confirmacion-despedida-padding-horizontal-pc);
+
+                                    font-size: var(--confirmacion-despedida-tamano-pc);
+
+                                    line-height: 1.5;
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   ÚLTIMA URL · IMAGEN FINAL (SIN FILTRO)
+================================================== */
+
+                                .confirmacion-pases-105-bloque .confirmacion145-img-final {
+                                    width: var(--confirmacion-imagen-final-ancho-pc);
+
+                                    max-width: var(--confirmacion-imagen-final-ancho-pc);
+
+                                    height: auto;
+
+                                    margin-left: auto;
+                                    margin-right: auto;
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    filter: none;
+                                }
+
+                                /* ==================================================
+   ANIMACIONES
+================================================== */
+
+                                .confirmacion-pases-105-bloque .pases-guion-105-fade,
+                                .confirmacion-pases-105-bloque .confirmacion145-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+                                }
+
+                                .confirmacion-pases-105-bloque .confirmacion-pases-105-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* ==================================================
+   TABLA DE MEDIDAS PARA CELULARES
+================================================== */
+
+                                @media (max-width: 600px) {
+                                    .confirmacion-pases-105-bloque {
+                                        /* MARCO DE PASES */
+
+                                        --pases-marco-ancho-movil: 100%;
+                                        --pases-marco-ancho-maximo-movil: 100%;
+                                        --pases-marco-padding-vertical-movil: 20px;
+                                        --pases-marco-padding-horizontal-movil: 20px;
+                                        --pases-marco-radio-movil: 20px;
+
+                                        /* TÍTULO PASES */
+
+                                        --pases-titulo-tamano-movil: 24px;
+                                        --pases-titulo-espacio-inferior-movil: 18px;
+
+                                        /* TEXTO SUPERIOR */
+
+                                        --pases-texto-superior-tamano-movil: 22px;
+                                        --pases-texto-superior-espacio-movil: 25px;
+
+                                        /* NÚMERO */
+
+                                        --pases-numero-tamano-movil: 42px;
+                                        --pases-numero-padding-vertical-movil: 12px;
+                                        --pases-numero-padding-horizontal-movil: 26px;
+                                        --pases-numero-radio-movil: 16px;
+
+                                        /* TEXTO INFERIOR */
+
+                                        --pases-texto-inferior-tamano-movil: 22px;
+                                        --pases-texto-inferior-espacio-movil: 25px;
+
+                                        /* SEPARADORES */
+
+                                        --pases-separador-alto-movil: 170px;
+                                        --pases-separador-ancho-movil: 24px;
+                                        --pases-separador-distancia-movil: 2px;
+                                        --pases-separador-rombo-movil: 12px;
+
+                                        /* ==============================================
+       MARCO DE CONFIRMACIÓN
+    ============================================== */
+
+                                        --confirmacion-marco-ancho-movil: 100%;
+                                        --confirmacion-marco-ancho-maximo-movil: 100%;
+                                        --confirmacion-marco-padding-vertical-movil: 20px;
+                                        --confirmacion-marco-padding-horizontal-movil: 20px;
+                                        --confirmacion-marco-radio-movil: 20px;
+                                        --confirmacion-espacio-elementos-movil: 30px;
+
+                                        /* TÍTULO */
+
+                                        --confirmacion-titulo-tamano-movil: 22px;
+
+                                        /* PRIMERA URL · ÍCONO */
+
+                                        --confirmacion-icono-ancho-movil: 70px;
+
+                                        /* TEXTO PRINCIPAL */
+
+                                        --confirmacion-texto-tamano-movil: 19px;
+                                        --confirmacion-texto-padding-horizontal-movil: 20px;
+
+                                        /* ETIQUETA */
+
+                                        --confirmacion-label-tamano-movil: 14px;
+                                        --confirmacion-label-espaciado-movil: 1px;
+                                        --confirmacion-label-margen-inferior-movil: 10px;
+
+                                        /* SELECTOR */
+
+                                        --confirmacion-selector-tamano-movil: 19px;
+                                        --confirmacion-selector-padding-vertical-movil: 13px;
+                                        --confirmacion-selector-padding-horizontal-movil: 16px;
+                                        --confirmacion-selector-radio-movil: 16px;
+
+                                        /* BOTÓN */
+
+                                        --confirmacion-boton-tamano-movil: 13px;
+                                        --confirmacion-boton-padding-vertical-movil: 12px;
+                                        --confirmacion-boton-padding-horizontal-movil: 18px;
+                                        --confirmacion-boton-radio-movil: 18px;
+
+                                        /* DESPEDIDA */
+
+                                        --confirmacion-despedida-tamano-movil: 19px;
+                                        --confirmacion-despedida-padding-horizontal-movil: 20px;
+
+                                        /* ÚLTIMA URL · IMAGEN FINAL */
+
+                                        --confirmacion-imagen-final-ancho-movil: 120px;
+                                    }
+
+                                    /* MARCO DE PASES */
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-contenedor {
+                                        width: var(--pases-marco-ancho-movil);
+
+                                        max-width: var(--pases-marco-ancho-maximo-movil);
+
+                                        padding: var(--pases-marco-padding-vertical-movil)
+                                            var(--pases-marco-padding-horizontal-movil);
+
+                                        border: none;
+
+                                        border-radius: var(--pases-marco-radio-movil);
+                                    }
+
+                                    /* TÍTULO PASES */
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-titulo {
+                                        margin-bottom: var(--pases-titulo-espacio-inferior-movil);
+
+                                        font-size: var(--pases-titulo-tamano-movil);
+                                    }
+
+                                    /* TEXTO SUPERIOR */
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-arriba {
+                                        margin-bottom: var(--pases-texto-superior-espacio-movil);
+
+                                        font-size: var(--pases-texto-superior-tamano-movil);
+                                    }
+
+                                    /* NÚMERO */
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-numero-wrap {
+                                        padding: var(--pases-numero-padding-vertical-movil)
+                                            var(--pases-numero-padding-horizontal-movil);
+
+                                        border-radius: var(--pases-numero-radio-movil);
+                                    }
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-numero {
+                                        font-size: var(--pases-numero-tamano-movil);
+                                    }
+
+                                    /* TEXTO INFERIOR */
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-abajo {
+                                        margin-top: var(--pases-texto-inferior-espacio-movil);
+
+                                        font-size: var(--pases-texto-inferior-tamano-movil);
+                                    }
+
+                                    /* SEPARADORES */
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-separador {
+                                        width: var(--pases-separador-ancho-movil);
+
+                                        height: var(--pases-separador-alto-movil);
+                                    }
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-separador-izquierdo {
+                                        left: var(--pases-separador-distancia-movil);
+                                    }
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-separador-derecho {
+                                        right: var(--pases-separador-distancia-movil);
+                                    }
+
+                                    .confirmacion-pases-105-bloque .pases-guion-105-separador::after {
+                                        width: var(--pases-separador-rombo-movil);
+
+                                        height: var(--pases-separador-rombo-movil);
+                                    }
+
+                                    /* MARCO DE CONFIRMACIÓN */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-container {
+                                        width: var(--confirmacion-marco-ancho-movil);
+
+                                        max-width: var(--confirmacion-marco-ancho-maximo-movil);
+
+                                        padding: var(--confirmacion-marco-padding-vertical-movil)
+                                            var(--confirmacion-marco-padding-horizontal-movil);
+
+                                        border: none;
+
+                                        border-radius: var(--confirmacion-marco-radio-movil);
+                                    }
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-container > * {
+                                        margin-bottom: var(--confirmacion-espacio-elementos-movil);
+                                    }
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-container > *:last-child {
+                                        margin-bottom: 0;
+                                    }
+
+                                    /* TÍTULO */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-titulo {
+                                        font-size: var(--confirmacion-titulo-tamano-movil);
+                                    }
+
+                                    /* PRIMERA URL · ÍCONO */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-img-icono {
+                                        width: var(--confirmacion-icono-ancho-movil);
+
+                                        max-width: var(--confirmacion-icono-ancho-movil);
+                                    }
+
+                                    /* TEXTO */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-texto {
+                                        max-width: none;
+
+                                        padding-left: var(--confirmacion-texto-padding-horizontal-movil);
+
+                                        padding-right: var(--confirmacion-texto-padding-horizontal-movil);
+
+                                        font-size: var(--confirmacion-texto-tamano-movil);
+                                    }
+
+                                    /* ETIQUETA */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-select-label {
+                                        margin-bottom: var(--confirmacion-label-margen-inferior-movil);
+
+                                        font-size: var(--confirmacion-label-tamano-movil);
+
+                                        letter-spacing: var(--confirmacion-label-espaciado-movil);
+                                    }
+
+                                    /* SELECTOR */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-select {
+                                        max-width: 100%;
+
+                                        padding: var(--confirmacion-selector-padding-vertical-movil)
+                                            var(--confirmacion-selector-padding-horizontal-movil);
+
+                                        border-radius: var(--confirmacion-selector-radio-movil);
+
+                                        font-size: var(--confirmacion-selector-tamano-movil);
+                                    }
+
+                                    /* BOTÓN */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-btn {
+                                        padding: var(--confirmacion-boton-padding-vertical-movil)
+                                            var(--confirmacion-boton-padding-horizontal-movil);
+
+                                        border-radius: var(--confirmacion-boton-radio-movil);
+
+                                        font-size: var(--confirmacion-boton-tamano-movil);
+                                    }
+
+                                    /* DESPEDIDA */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-despedida {
+                                        max-width: none;
+
+                                        padding-left: var(--confirmacion-despedida-padding-horizontal-movil);
+
+                                        padding-right: var(--confirmacion-despedida-padding-horizontal-movil);
+
+                                        font-size: var(--confirmacion-despedida-tamano-movil);
+                                    }
+
+                                    /* ÚLTIMA URL · IMAGEN FINAL */
+
+                                    .confirmacion-pases-105-bloque .confirmacion145-img-final {
+                                        width: var(--confirmacion-imagen-final-ancho-movil);
+
+                                        max-width: var(--confirmacion-imagen-final-ancho-movil);
+                                    }
+                                }
+
+                                /* ==================================================
+   ACCESIBILIDAD
+================================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .confirmacion-pases-105-bloque .pases-guion-105-fade,
+                                    .confirmacion-pases-105-bloque .confirmacion145-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+                                }
+
+
+                                /* ==================================================
+   TABLA DE MEDIDAS PARA COMPUTADORAS
+================================================== */
+
+                                .mensaje-37b-wrapper {
+                                    /* WRAPPER */
+
+                                    --mensaje-37b-wrapper-padding-pc: 10px;
+
+                                    /* MARCO PRINCIPAL */
+
+                                    --mensaje-37b-marco-ancho-pc: 98%;
+                                    --mensaje-37b-marco-ancho-maximo-pc: 1200px;
+                                    --mensaje-37b-marco-padding-vertical-pc: 20px;
+                                    --mensaje-37b-marco-padding-horizontal-pc: 20px;
+                                    --mensaje-37b-marco-radio-pc: 20px;
+
+                                    /* TÍTULO */
+
+                                    --mensaje-37b-titulo-tamano-pc: 35px;
+                                    --mensaje-37b-titulo-interlineado-pc: 1.3;
+                                    --mensaje-37b-titulo-espacio-inferior-pc: 15px;
+                                    --mensaje-37b-titulo-padding-horizontal-pc: 0px;
+
+                                    /* TEXTO PRINCIPAL */
+
+                                    --mensaje-37b-texto-tamano-pc: 30px;
+                                    --mensaje-37b-texto-interlineado-pc: 1.5;
+                                    --mensaje-37b-texto-ancho-maximo-pc: 700px;
+                                    --mensaje-37b-texto-padding-horizontal-pc: 0px;
+                                    --mensaje-37b-texto-espacio-inferior-pc: 25px;
+
+                                    /* ÚLTIMA URL · CONSERVA SU TAMAÑO */
+
+                                    --mensaje-37b-imagen-final-ancho-pc: 100px;
+                                    --mensaje-37b-imagen-final-margen-superior-pc: 15px;
+                                    --mensaje-37b-imagen-final-margen-inferior-pc: 10px;
+                                    --mensaje-37b-imagen-final-radio-pc: 15px;
+
+                                    width: 100%;
+
+                                    padding: var(--mensaje-37b-wrapper-padding-pc);
+
+                                    background-color: #f7b2b7; /* Fondo de escena (rosa empolvado) */
+
+                                    display: flex;
+                                    justify-content: center;
+
+                                    font-family: "Handlee", cursive;
+
+                                    box-sizing: border-box;
+
+                                    overflow: hidden;
+                                }
+
+                                /* ==================================================
+   AISLAMIENTO DEL BLOQUE
+================================================== */
+
+                                .mensaje-37b-wrapper,
+                                .mensaje-37b-wrapper * {
+                                    box-sizing: border-box;
+                                }
+
+                                /* ==================================================
+   MARCO PRINCIPAL - MARFIL CON BORDE ROSADO
+================================================== */
+
+                                .mensaje-37b-wrapper .mensaje-37b-container {
+                                    width: var(--mensaje-37b-marco-ancho-pc);
+
+                                    max-width: var(--mensaje-37b-marco-ancho-maximo-pc);
+
+                                    padding: var(--mensaje-37b-marco-padding-vertical-pc)
+                                        var(--mensaje-37b-marco-padding-horizontal-pc);
+
+                                    background-color: #fdf5e6; /* Marfil */
+
+                                    border: 3px solid #fce4e6; /* Borde marfil rosado */
+
+                                    border-radius: var(--mensaje-37b-marco-radio-pc);
+
+                                    box-shadow: none; /* Sin sombra */
+
+                                    text-align: center;
+
+                                    overflow: hidden;
+                                }
+
+                                /* ==================================================
+   TÍTULO - CAFÉ
+================================================== */
+
+                                .mensaje-37b-wrapper .mensaje-37b-titulo {
+                                    width: 100%;
+
+                                    margin-bottom: var(--mensaje-37b-titulo-espacio-inferior-pc);
+
+                                    padding-left: var(--mensaje-37b-titulo-padding-horizontal-pc);
+
+                                    padding-right: var(--mensaje-37b-titulo-padding-horizontal-pc);
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--mensaje-37b-titulo-tamano-pc);
+
+                                    font-weight: 700;
+
+                                    line-height: var(--mensaje-37b-titulo-interlineado-pc);
+
+                                    color: #4e342e; /* Café oscuro */
+                                }
+
+                                /* ==================================================
+   TEXTO PRINCIPAL - CAFÉ
+================================================== */
+
+                                .mensaje-37b-wrapper .mensaje-37b-texto {
+                                    width: 100%;
+
+                                    max-width: var(--mensaje-37b-texto-ancho-maximo-pc);
+
+                                    margin: 0 auto var(--mensaje-37b-texto-espacio-inferior-pc);
+
+                                    padding-left: var(--mensaje-37b-texto-padding-horizontal-pc);
+
+                                    padding-right: var(--mensaje-37b-texto-padding-horizontal-pc);
+
+                                    font-family: "Handlee", cursive;
+
+                                    font-size: var(--mensaje-37b-texto-tamano-pc);
+
+                                    line-height: var(--mensaje-37b-texto-interlineado-pc);
+
+                                    color: #4e342e; /* Café */
+                                }
+
+                                /* ==================================================
+   ÚLTIMA URL · CONSERVA SU TAMAÑO (SIN FILTRO)
+================================================== */
+
+                                .mensaje-37b-wrapper .mensaje-37b-imagen-final {
+                                    width: var(--mensaje-37b-imagen-final-ancho-pc);
+
+                                    max-width: var(--mensaje-37b-imagen-final-ancho-pc);
+
+                                    height: auto;
+
+                                    margin: var(--mensaje-37b-imagen-final-margen-superior-pc) auto
+                                        var(--mensaje-37b-imagen-final-margen-inferior-pc);
+
+                                    display: block;
+
+                                    object-fit: contain;
+
+                                    border-radius: var(--mensaje-37b-imagen-final-radio-pc);
+
+                                    filter: none; /* Sin filtro */
+                                }
+
+                                /* ==================================================
+   ANIMACIÓN
+================================================== */
+
+                                .mensaje-37b-wrapper .mensaje-37b-fade {
+                                    opacity: 0;
+
+                                    transform: translateY(20px);
+
+                                    transition:
+                                        opacity 0.8s ease,
+                                        transform 0.8s ease;
+
+                                    will-change: opacity, transform;
+                                }
+
+                                .mensaje-37b-wrapper .mensaje-37b-fade.mensaje-37b-visible {
+                                    opacity: 1;
+
+                                    transform: translateY(0);
+                                }
+
+                                /* ==================================================
+   TABLA DE MEDIDAS PARA CELULARES
+================================================== */
+
+                                @media (max-width: 600px) {
+                                    .mensaje-37b-wrapper {
+                                        /* WRAPPER */
+
+                                        --mensaje-37b-wrapper-padding-movil: 10px;
+
+                                        /* MARCO PRINCIPAL */
+
+                                        --mensaje-37b-marco-ancho-movil: 100%;
+                                        --mensaje-37b-marco-ancho-maximo-movil: 100%;
+                                        --mensaje-37b-marco-padding-vertical-movil: 20px;
+                                        --mensaje-37b-marco-padding-horizontal-movil: 20px;
+                                        --mensaje-37b-marco-radio-movil: 20px;
+
+                                        /* TÍTULO */
+
+                                        --mensaje-37b-titulo-tamano-movil: 20px;
+                                        --mensaje-37b-titulo-interlineado-movil: 1.3;
+                                        --mensaje-37b-titulo-espacio-inferior-movil: 15px;
+                                        --mensaje-37b-titulo-padding-horizontal-movil: 10px;
+
+                                        /* TEXTO PRINCIPAL */
+
+                                        --mensaje-37b-texto-tamano-movil: 19px;
+                                        --mensaje-37b-texto-interlineado-movil: 1.5;
+                                        --mensaje-37b-texto-padding-horizontal-movil: 20px;
+                                        --mensaje-37b-texto-espacio-inferior-movil: 25px;
+
+                                        /* ÚLTIMA URL · CONSERVA SU TAMAÑO */
+
+                                        --mensaje-37b-imagen-final-ancho-movil: 100px;
+                                        --mensaje-37b-imagen-final-margen-superior-movil: 15px;
+                                        --mensaje-37b-imagen-final-margen-inferior-movil: 10px;
+                                        --mensaje-37b-imagen-final-radio-movil: 15px;
+
+                                        padding: var(--mensaje-37b-wrapper-padding-movil);
+                                    }
+
+                                    /* MARCO PRINCIPAL */
+
+                                    .mensaje-37b-wrapper .mensaje-37b-container {
+                                        width: var(--mensaje-37b-marco-ancho-movil);
+
+                                        max-width: var(--mensaje-37b-marco-ancho-maximo-movil);
+
+                                        padding: var(--mensaje-37b-marco-padding-vertical-movil)
+                                            var(--mensaje-37b-marco-padding-horizontal-movil);
+
+                                        border: none;
+
+                                        border-radius: var(--mensaje-37b-marco-radio-movil);
+                                    }
+
+                                    /* TÍTULO */
+
+                                    .mensaje-37b-wrapper .mensaje-37b-titulo {
+                                        margin-bottom: var(--mensaje-37b-titulo-espacio-inferior-movil);
+
+                                        padding-left: var(--mensaje-37b-titulo-padding-horizontal-movil);
+
+                                        padding-right: var(--mensaje-37b-titulo-padding-horizontal-movil);
+
+                                        font-size: var(--mensaje-37b-titulo-tamano-movil);
+
+                                        line-height: var(--mensaje-37b-titulo-interlineado-movil);
+                                    }
+
+                                    /* TEXTO PRINCIPAL */
+
+                                    .mensaje-37b-wrapper .mensaje-37b-texto {
+                                        max-width: none;
+
+                                        margin-bottom: var(--mensaje-37b-texto-espacio-inferior-movil);
+
+                                        padding-left: var(--mensaje-37b-texto-padding-horizontal-movil);
+
+                                        padding-right: var(--mensaje-37b-texto-padding-horizontal-movil);
+
+                                        font-size: var(--mensaje-37b-texto-tamano-movil);
+
+                                        line-height: var(--mensaje-37b-texto-interlineado-movil);
+                                    }
+
+                                    /* ÚLTIMA URL */
+
+                                    .mensaje-37b-wrapper .mensaje-37b-imagen-final {
+                                        width: var(--mensaje-37b-imagen-final-ancho-movil);
+
+                                        max-width: var(--mensaje-37b-imagen-final-ancho-movil);
+
+                                        margin: var(--mensaje-37b-imagen-final-margen-superior-movil) auto
+                                            var(--mensaje-37b-imagen-final-margen-inferior-movil);
+
+                                        border-radius: var(--mensaje-37b-imagen-final-radio-movil);
+                                    }
+                                }
+
+                                /* ==================================================
+   ACCESIBILIDAD
+================================================== */
+
+                                @media (prefers-reduced-motion: reduce) {
+                                    .mensaje-37b-wrapper .mensaje-37b-fade {
+                                        opacity: 1;
+
+                                        transform: none;
+
+                                        transition: none;
+                                    }
+                                }
+
+
+                        .musica-guion143-wrapper,.musica-guion143-wrapper *{box-sizing:border-box}
+                        .musica-guion143-wrapper{width:100%;background-color:#f7b2b7;display:flex;justify-content:center;align-items:center;padding:30px 20px;font-family:"Handlee",cursive;text-align:center}
+                        .musica-guion143-reproductor{width:100%;max-width:720px;display:flex;flex-direction:column;align-items:center;justify-content:center;border:3px solid #fce4e6;border-radius:24px;padding:20px}
+                        .musica-guion143-titulo{color:#4e342e;font-size:30px;line-height:1.3;margin:0 0 8px;font-weight:bold}
+                        .musica-guion143-indicacion{color:#4e342e;font-size:16px;line-height:1.4;margin:0 0 24px;letter-spacing:2px}
+                        .musica-guion143-progreso-contenedor{width:100%;display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:22px}
+                        .musica-guion143-tiempo{min-width:42px;color:#4e342e;font-family:Arial,sans-serif;font-size:12px;line-height:1}
+                        .musica-guion143-progreso{position:relative;width:100%;height:6px;padding:0;border:0;border-radius:999px;background-color:rgba(255,245,230,.28);cursor:pointer;overflow:visible;appearance:none;-webkit-appearance:none}
+                        .musica-guion143-progreso::-webkit-slider-runnable-track{width:100%;height:6px;border-radius:999px;background:linear-gradient(to right,#efa5b4 0%,#efa5b4 var(--musica-guion143-progreso,0%),#fce4e6 var(--musica-guion143-progreso,0%),#fce4e6 100%)}
+                        .musica-guion143-progreso::-webkit-slider-thumb{width:18px;height:18px;margin-top:-6px;border:2px solid #fdf5e6;border-radius:50%;background-color:#efa5b4;box-shadow:0 2px 7px rgba(0,0,0,.15);cursor:pointer;appearance:none;-webkit-appearance:none}
+                        .musica-guion143-progreso::-moz-range-track{width:100%;height:6px;border:0;border-radius:999px;background-color:#fce4e6}
+                        .musica-guion143-progreso::-moz-range-progress{height:6px;border-radius:999px;background-color:#efa5b4}
+                        .musica-guion143-progreso::-moz-range-thumb{width:18px;height:18px;border:2px solid #fdf5e6;border-radius:50%;background-color:#efa5b4;box-shadow:0 2px 7px rgba(0,0,0,.15);cursor:pointer}
+                        .musica-guion143-controles{width:100%;display:flex;align-items:center;justify-content:center;gap:22px}
+                        .musica-guion143-control{width:48px;height:48px;min-width:48px;padding:0;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:50%;background-color:transparent;color:#4e342e;cursor:pointer;transition:color .25s ease,background-color .25s ease,transform .25s ease}
+                        .musica-guion143-control:hover{color:#efa5b4;background-color:rgba(239,165,180,.08);transform:translateY(-2px)}
+                        .musica-guion143-control svg{width:27px;height:27px;display:block;fill:currentColor}
+                        .musica-guion143-control-activo{color:#efa5b4}
+                        .musica-guion143-boton-principal{position:relative;width:82px;height:82px;min-width:82px;padding:0;display:inline-flex;align-items:center;justify-content:center;border:2px solid #efa5b4;border-radius:50%;background-color:#fdf5e6;color:#4e342e;cursor:pointer;box-shadow:0 7px 18px rgba(0,0,0,.1);transition:background-color .25s ease,transform .25s ease,box-shadow .25s ease}
+                        .musica-guion143-boton-principal:hover{background-color:#fce4e6;transform:scale(1.04);box-shadow:0 9px 22px rgba(0,0,0,.15)}
+                        .musica-guion143-boton-principal:active{transform:scale(.97)}
+                        .musica-guion143-icono-play,.musica-guion143-icono-pausa{width:33px;height:33px;display:block;fill:currentColor}
+                        .musica-guion143-icono-play{margin-left:4px}
+                        .musica-guion143-icono-pausa{display:none}
+                        .musica-guion143-boton-principal.musica-guion143-playing .musica-guion143-icono-play{display:none}
+                        .musica-guion143-boton-principal.musica-guion143-playing .musica-guion143-icono-pausa{display:block}
+                        .musica-guion143-eq{height:24px;margin-top:18px;display:flex;align-items:flex-end;justify-content:center;gap:4px;opacity:0;transition:opacity .3s ease}
+                        .musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-eq{opacity:1}
+                        .musica-guion143-bar{width:4px;height:7px;border-radius:3px;background-color:#efa5b4}
+                        .musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-bar:nth-child(1){animation:musica-guion143-eq1 1s infinite ease-in-out}
+                        .musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-bar:nth-child(2){animation:musica-guion143-eq2 .9s infinite ease-in-out}
+                        .musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-bar:nth-child(3){animation:musica-guion143-eq3 1.1s infinite ease-in-out}
+                        .musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-bar:nth-child(4){animation:musica-guion143-eq4 .8s infinite ease-in-out}
+                        .musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-bar:nth-child(5){animation:musica-guion143-eq5 1.2s infinite ease-in-out}
+                        @keyframes musica-guion143-eq1{0%,100%{height:7px}50%{height:20px}}
+                        @keyframes musica-guion143-eq2{0%,100%{height:10px}50%{height:17px}}
+                        @keyframes musica-guion143-eq3{0%,100%{height:6px}50%{height:24px}}
+                        @keyframes musica-guion143-eq4{0%,100%{height:9px}50%{height:18px}}
+                        @keyframes musica-guion143-eq5{0%,100%{height:7px}50%{height:22px}}
+                        .musica-guion143-estado{min-height:22px;margin-top:8px;color:#4e342e;font-size:15px;line-height:1.4}
+                        @media(max-width:600px){.musica-guion143-wrapper{padding:28px 20px}.musica-guion143-titulo{font-size:22px}.musica-guion143-indicacion{margin-bottom:22px;font-size:14px;letter-spacing:1.3px}.musica-guion143-progreso-contenedor{gap:8px}.musica-guion143-tiempo{min-width:36px;font-size:11px}.musica-guion143-controles{gap:9px}.musica-guion143-control{width:44px;height:44px;min-width:44px}.musica-guion143-control svg{width:24px;height:24px}.musica-guion143-boton-principal{width:70px;height:70px;min-width:70px}.musica-guion143-icono-play,.musica-guion143-icono-pausa{width:29px;height:29px}}
+                        @media(max-width:350px){.musica-guion143-wrapper{padding-left:12px;padding-right:12px}.musica-guion143-controles{gap:3px}.musica-guion143-control{width:42px;height:42px;min-width:42px}.musica-guion143-boton-principal{width:64px;height:64px;min-width:64px}}
+                        @media(prefers-reduced-motion:reduce){.musica-guion143-control,.musica-guion143-boton-principal,.musica-guion143-eq{transition:none}.musica-guion143-reproductor.musica-guion143-reproduciendo .musica-guion143-bar{animation:none!important;height:12px}}
+                    
