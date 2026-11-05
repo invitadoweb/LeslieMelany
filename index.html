@@ -16,6 +16,14 @@
         <link rel="stylesheet" href="css/tilda-blocks.min.css" type="text/css" media="all" onerror="this.loaderr='y';" />
         <link rel="preconnect" href="https://fonts.gstatic.com/" />
         <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&amp;subset=latin,cyrillic" rel="stylesheet" />
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.css">
+
+
+
+
         <script nomodule="" src="js/tilda-polyfill.min.js" charset="utf-8"></script>
         <script type="text/javascript">
             function t_onReady(func) {
@@ -48,7 +56,7 @@
                 }
             })();
         </script>
-        <style type="text/css">div.t-records { opacity: 1; }</style>
+        <style type="text/css">div.t-records { opacity: 1; }  .d_none{ display: none !important; } </style>
     </head>
     <body class="t-body" style="margin: 0">
         <!--allrecords-->
@@ -403,7 +411,7 @@
             </div>-->
 
             <!-- RECEPCIÓN -->
-            <div id="rec2776325103" class="r t-rec" style="" data-animationappear="off" data-record-type="131">
+            <div   class="r t-rec" style="" data-animationappear="off" data-record-type="131" id="acces">
                 <div class="t123"><div class="t-container_100"><div class="t-width t-width_100">
                     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Cinzel:wght@500;700&family=Macondo&display=swap" rel="stylesheet" />
                     <section class="recepcion-guion-143-wrapper" data-recepcion-guion-143="">
@@ -521,6 +529,32 @@
                 </div></div></div>
             </div>-->
 
+
+
+
+
+
+        
+   
+            <section class="mesa-145-wrapper"  id="acces">
+
+                <div class="mesa-145-container">
+            
+                    <img src="img/ca.webp" alt="Lluvia de sobres" class="mesa-145-img " decoding="async" />
+                    <a href="foto.html" target="_blank" style="text-decoration: none;" class="mesa-145-etiqueta ">TOMA UNA FOTO</a>
+                    <img src="img/ab.png" alt="Lluvia de sobres" class="mesa-145-img " decoding="async" />
+                    <a href="albun.html" target="_blank" style="text-decoration: none;" class="mesa-145-etiqueta ">VER ALBUM</a>
+
+
+
+                </div>
+            </section>
+
+            
+
+
+
+
             <!-- MESA DE REGALOS -->
             <div id="rec2776325503" class="r t-rec" style="" data-animationappear="off" data-record-type="131">
                 <div class="t123"><div class="t-container_100"><div class="t-width t-width_100">
@@ -550,14 +584,40 @@
                 </div></div></div>
             </div>
 
+
+
+          
+        
+   
+            <section class="mesa-145-wrapper d_none"  id="no_acces" onclick="ShowModal()">
+
+                <div class="mesa-145-container">
+                    LA PRESENTE INVITACIÓN<br> NO GARANTIZA ACCESO AL EVENTO.
+            
+                </div>
+            </section>
+
+            
+               
+
+
+
+
+
+
+
+
+
+
             <!-- BUZÓN DE DESEOS -->
-            <div id="rec2776325803" class="r t-rec" style="" data-animationappear="off" data-record-type="131">
+            <div   class="r t-rec" style="" data-animationappear="off" data-record-type="131" id="acces">
                 <div class="t123"><div class="t-container_100"><div class="t-width t-width_100">
                     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
                     <section class="buzon143-wrapper" data-bloque="buzon143">
                         <div class="buzon143-container">
                             <div class="buzon143-titulo buzon143-fade">BUZÓN DE DESEOS</div>
                             <img src="img/i_1.png" alt="Buzón de deseos" class="buzon143-img-icono buzon143-fade" />
+
                             <div class="buzon143-texto buzon143-fade">Cada palabra que me regales hoy será un recuerdo que guardaré para siempre, un pedacito de tu cariño que me acompañará en cada paso de esta nueva etapa</div>
                             <a href="https://wa.me/+5215549177081?text=Hola%20mi%20deseo%20para%20ti%20es..." target="_blank" rel="noopener noreferrer" class="buzon143-btn buzon143-fade">MENSAJE</a>
                             <img src="gifs/gif1.gif" alt="Imagen decorativa final" class="buzon143-img-final buzon143-fade" />
@@ -579,7 +639,7 @@
             </div>
 
             <!-- CONFIRMACIÓN Y PASES -->
-            <div id="rec2776326003" class="r t-rec" style="" data-animationappear="off" data-record-type="131">
+            <div  class="r t-rec" style="" data-animationappear="off" data-record-type="131" id="acces">
                 <div class="t123"><div class="t-container_100"><div class="t-width t-width_100">
                     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
                     <main class="confirmacion-pases-105-bloque" data-bloque="confirmacion-pases-105">
@@ -599,48 +659,33 @@
                             <div class="confirmacion145-container">
                                 <div class="confirmacion145-titulo confirmacion145-fade">CONFIRMACIÓN</div>
                                 <img src="img/i_2.png" alt="Confirmación de asistencia" class="confirmacion145-img-icono confirmacion145-fade" />
-                                <div class="confirmacion145-texto confirmacion145-fade">Nos encantará saber que nos acompañarás; permítenos preparar los detalles confirmando tu asistencia.</div>
+
+
+                                <div class="  confirmacion145-fade" style="margin-bottom: 10px;font-size: 25px;" id="txt_famlia">- - -</div>
+
+                                <div class="confirmacion145-texto confirmacion145-fade">
+                                    Nos encantará saber que nos acompañarás; permítenos preparar los detalles confirmando tu asistencia.
+                                </div>
                                 <div class="confirmacion145-selector-wrap confirmacion145-fade">
                                     <label for="confirmacion145-select-pases" class="confirmacion145-select-label">¿Cuántos lugares confirmas?</label>
                                     <select id="confirmacion145-select-pases" class="confirmacion145-select" data-elemento="selector-pases" aria-label="Cantidad de lugares que se confirmarán">
-                                        <option value="1">1 Persona</option>
-                                        <option value="2">2 Personas</option>   
+                                   
                                     </select>
                                 </div>
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="confirmacion145-btn confirmacion145-fade" data-elemento="boton-whatsapp">CONFIRMAR ASISTENCIA</a>
+                                <a  target="_blank" rel="noopener noreferrer" 
+                                class="confirmacion145-btn confirmacion145-fade" data-elemento="boton-whatsapp">CONFIRMAR ASISTENCIA</a>
                                 <div class="confirmacion145-despedida confirmacion145-fade">Será un honor compartir este momento tan especial contigo. Esperamos contar con tu presencia para celebrar juntos un evento inolvidable.</div>
                                 
                                 
                             </div>
                         </section>
                     </main>
-                    <script>
-                    (function(){
-                        var bloque=document.querySelector('[data-bloque="confirmacion-pases-105"]'); if(!bloque) return;
-                        var params=new URLSearchParams(window.location.search), pasesParam=params.get('pases');
-                        var totalPases=(pasesParam&&!isNaN(pasesParam)&&Number(pasesParam)>0)?Math.floor(Number(pasesParam)):2;
-                        var numEl=bloque.querySelector('[data-elemento="numero-pases"]');
-                        var selEl=bloque.querySelector('[data-elemento="selector-pases"]');
-                        var btnEl=bloque.querySelector('[data-elemento="boton-whatsapp"]');
-                        numEl.textContent=totalPases;
-                        selEl.innerHTML='';
-                        for(var i=1;i<=totalPases;i++){ var o=document.createElement('option'); o.value=i; o.textContent=i===1?'1 Persona':i+' Personas'; selEl.appendChild(o); }
-                        function updateWA(){ var c=selEl.value; btnEl.href='https://wa.me/+5215549177081?text='+encodeURIComponent('Hola, confirmo mi asistencia para '+c+(c==='1'?' persona.':' personas.')+' Muchas gracias.'); }
-                        selEl.addEventListener('change',updateWA); updateWA();
-                        var els=bloque.querySelectorAll('.pases-guion-105-fade, .confirmacion145-fade');
-                        function show(){ els.forEach(function(e){ e.classList.add('confirmacion-pases-105-visible'); }); }
-                        if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){ show(); return; }
-                        if('IntersectionObserver' in window){
-                            var obs=new IntersectionObserver(function(entries,o){ entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('confirmacion-pases-105-visible'); o.unobserve(e.target); } }); },{threshold:0.15});
-                            els.forEach(function(e){ obs.observe(e); });
-                        } else { show(); }
-                    })();
-                    </script>
+                
                 </div></div></div>
             </div>
 
             <!-- MENSAJE FINAL -->
-            <div id="rec2776326103" class="r t-rec" style="" data-animationappear="off" data-record-type="131">
+            <div   class="r t-rec" style="" data-animationappear="off" data-record-type="131" id="acces">
                 <div class="t123"><div class="t-container_100"><div class="t-width t-width_100">
                     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
                     <section class="mensaje-37b-wrapper" data-bloque="mensaje-37b">
@@ -672,5 +717,336 @@
             <br>
             <iframe src="https://ztart.mx/incrust/black.html" width="100%" height="auto" frameborder="0"></iframe>
         </footer>
+
+
+
+
+
+<!-- MINIDASH -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label class="form-label">Ingresa key</label>
+                    <input type="password" class="form-control" name="key" placeholder="##########">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="Login()">Ingresar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js"></script>
+
+
+<script>
+
+
+
+
+
+
+
+const REGISTRY = "https://raw.githubusercontent.com/servemza/tunnel/main/tunnels.json";
+let API_URL, API;
+const CLIENTE_ID = "57";
+function getTunnels() {
+  return fetch(`${REGISTRY}?t=${Date.now()}`, { cache: "no-store" })
+    .then(res => {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    });
+}
+getTunnels()
+.then(data => {
+
+
+API_URL = API = data["8080"]?.url;
+  
+
+
+
+class UrlParams {  constructor() { this.params = new URLSearchParams(window.location.search); }  get(key) { return this.params.get(key); } }
+const url = new UrlParams();
+var invitado = url.get('invitado');
+if(invitado!=null){
+    var link = `${API}/pase_show?cliente_id=${CLIENTE_ID}&familia=${invitado}&r=${Math.random()}`;
+    function procesarRespuesta(data) {
+        var data = JSON.parse(data);
+        if (data.message == false) {
+            window.location.href = "./";
+        } else {
+            $("*#txt_famlia").html(toTitleCase(data.message.familia));
+            var n = data.message.num_invitados;
+            var str = "";
+            if (n > 1) {
+                str = str + n + " personas";
+            } else {
+                str = str + n + " persona";
+            }
+            $("*#txt_personas").html(str);
+
+            pases(n);
+            
+            console.log(data.message);
+        }
+    }
+    fetch(link)
+    .then(response => response.text())
+    .then(data => procesarRespuesta(data))
+    .catch(error => {
+        console.error('Error en la petición:', error);
+        window.location.href = "./";
+    });
+  
+}else{
+
+    $("*#acces").addClass("d_none");
+    $("*#no_acces").removeClass("d_none");
+}}).catch(err => console.error("Error cargando tunnels:", err));
+
+
+
+
+
+function ShowModal(){
+     $('#exampleModal').modal('show');
+}
+async function Login(){
+    var formData = $('#exampleModal form');
+    var serialize = formData.serialize();
+    var dataObj = formData.serializeArray();
+    var url = `${API}/pase_login?cliente_id=${CLIENTE_ID}&clave=${dataObj[0].value}`;
+    
+    function procesarRespuesta(data) {
+        if (data == 'error') {
+            Toastify({
+                text: "Error en la clave",
+                duration: 1000,
+                backgroundColor: "#F44336"
+            }).showToast();
+        }
+        
+        if (data == 'exito') {
+            var all = `${API}/pase_all?cliente_id=${CLIENTE_ID}&r=${Math.random()}`;
+            
+            function procesarRespuestaAll(data) {
+                $("#exampleModal").html(data);
+            }
+            
+            fetch(all)
+                .then(response => response.text())
+                .then(data => {
+                    procesarRespuestaAll(data);
+                    console.log('Respuesta procesada exitosamente');
+                })
+                .catch(error => {
+                    console.error('Error al cargar los datos:', error);
+                });
+        }
+    }
+    fetch(url)
+        .then(response => response.text())
+        .then(data => procesarRespuesta(data))
+        .catch(error => {
+            console.error('Error en la petición de login:', error);
+            Toastify({
+                text: "Error de conexión",
+                duration: 1000,
+                backgroundColor: "#F44336"
+            }).showToast();
+        });
+}
+function addinvitado(){
+
+    console.log('familia el:', document.getElementById('familia'));
+    console.log('personas el:', document.getElementById('personas'));
+    console.log('API:', API);
+
+
+
+    const familia = document.getElementById('familia').value.trim().toLowerCase();
+    const personas = document.getElementById('personas').value.trim();
+    if (familia === '') {
+        Toastify({
+            text: "La familia no puede ser vacio",
+            duration: 1000,
+            backgroundColor: "#F44336"
+        }).showToast();
+        return false;
+    }
+    if (personas === '') {
+        Toastify({
+            text: "El número de personas no puede ser vacio",
+            duration: 1000,
+            backgroundColor: "#F44336"
+        }).showToast();
+        return false;
+    }
+    if (isNaN(personas) || personas <= 0) {
+        Toastify({
+            text: "El número de personas debe ser un número válido mayor a 0",
+            duration: 1000,
+            backgroundColor: "#F44336"
+        }).showToast();
+        return false;
+    }
+    const tabla = document.querySelector('table');
+    const tbody = tabla.querySelector('tbody');
+    let textoEncontrado = false;
+    if (tbody.textContent.includes('Agrega invitados en la parte de abajo')) {
+        textoEncontrado = true;
+    }
+    if (textoEncontrado) {
+        tbody.innerHTML = ''; // Limpiar
+    }
+    let FEncontrado = false;
+    if (tbody.textContent.includes(familia)) {
+        FEncontrado = true;
+    }
+    if (FEncontrado) {
+        Toastify({
+            text: "La familia ya esta agregada",
+            duration: 1000,
+            backgroundColor: "#F44336"
+        }).showToast();
+        return false;
+    }
+    tbody.innerHTML += `
+        <tr data-familia="${familia}">
+            <td>${familia}</td>
+            <td>${personas}</td>
+            <td class="text_center">
+                <button type="button" class="btn btn-primary p_5" onclick="compartirWat('${familia}')"><span class="material-icons">reply</span></button>
+                <button type="button" class="btn btn-danger p_5" onclick="deleteFam('${familia}')"><span class="material-icons">delete</span></button>
+            </td>
+        </tr>
+    `;
+    Toastify({
+        text: "Agregando ",
+        duration: 1000,
+        backgroundColor: "#4CAF50"
+    }).showToast();
+    document.getElementById('familia').value = '';
+    document.getElementById('personas').value = '';
+    var url = `${API}/pase_update?cliente_id=${CLIENTE_ID}&tipo=1&familia=${familia}&personas=${personas}&r=${Math.random()}`;
+    function procesarRespuesta(data) {
+        console.log('Invitado agregado exitosamente');
+    }
+    fetch(url)
+        .then(response => response.text())
+        .then(data => procesarRespuesta(data))
+        .catch(error => {
+            console.error('Error al agregar invitado:', error);
+            Toastify({
+                text: "Error al guardar en el servidor",
+                duration: 1000,
+                backgroundColor: "#F44336"
+            }).showToast();
+        });
+}
+function deleteFam(familia){
+    document.querySelector('[data-familia="'+familia+'"]').remove();
+    const tabla = document.querySelector('table');
+    const tbody = tabla.querySelector('tbody');
+    const totalTr = tbody.querySelectorAll('tr').length
+    if(totalTr < 1){
+        tbody.innerHTML += `
+            <tr>
+                <td class="text_center" colspan="3">Agrega invitados en la parte de abajo</td>
+            </tr>
+        `;
+    }
+    Toastify({
+        text: "Borrado ",
+        duration: 1000,
+        backgroundColor: "#4CAF50"
+    }).showToast();
+
+    var url = `${API}/pase_update?cliente_id=${CLIENTE_ID}&tipo=0&familia=${familia}&r=${Math.random()}`;
+    
+    function procesarRespuesta(data) {
+        console.log('Invitado borrado exitosamente');
+    }
+    
+    fetch(url)
+        .then(response => response.text())
+        .then(data => procesarRespuesta(data))
+        .catch(error => {
+            console.error('Error al borrar invitado:', error);
+            Toastify({
+                text: "Error al eliminar del servidor",
+                duration: 1000,
+                backgroundColor: "#F44336"
+            }).showToast();
+        });
+}
+function compartirWat(familia){
+    const boton = document.createElement('button');
+    boton.id = 'miBoton';
+    boton.className = 'd_none';
+    boton.textContent = 'Compartir WhatsApp';
+    document.body.appendChild(boton);
+    
+    // Codificar la familia para evitar problemas con espacios
+    const familiaCodeada = encodeURIComponent(familia);
+    const mensaje = "https://invitadoweb.github.io/YuliethIsrael/?invitado=" + familiaCodeada;
+    const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(mensaje)}`;
+    
+    boton.addEventListener('click', function() {
+        window.open(whatsappUrl, '_blank');
+        boton.remove();
+    });
+    boton.click();
+}
+function toTitleCase(str) {
+    return str
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join(' ');
+}
+
+function pases(n_invitaods){
+    var bloque=document.querySelector('[data-bloque="confirmacion-pases-105"]'); if(!bloque) return;
+    var params=new URLSearchParams(window.location.search), pasesParam=params.get('pases');
+    var totalPases=(pasesParam&&!isNaN(pasesParam)&&Number(pasesParam)>0)?Math.floor(Number(pasesParam)):n_invitaods;
+    var numEl=bloque.querySelector('[data-elemento="numero-pases"]');
+    var selEl=bloque.querySelector('[data-elemento="selector-pases"]');
+    var btnEl=bloque.querySelector('[data-elemento="boton-whatsapp"]');
+    numEl.textContent=totalPases;
+    selEl.innerHTML='';
+    for(var i=1;i<=totalPases;i++){ var o=document.createElement('option'); o.value=i; o.textContent=i===1?'1 Persona':i+' Personas'; selEl.appendChild(o); }
+    function updateWA(){ var c=selEl.value; btnEl.href='https://wa.me/+5215549177081?text='+encodeURIComponent('Hola, confirmo mi asistencia para '+c+(c==='1'?' persona.':' personas.')+' Muchas gracias.'); }
+    selEl.addEventListener('change',updateWA); updateWA();
+    var els=bloque.querySelectorAll('.pases-guion-105-fade, .confirmacion145-fade');
+    function show(){ els.forEach(function(e){ e.classList.add('confirmacion-pases-105-visible'); }); }
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){ show(); return; }
+    if('IntersectionObserver' in window){
+        var obs=new IntersectionObserver(function(entries,o){ entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('confirmacion-pases-105-visible'); o.unobserve(e.target); } }); },{threshold:0.15});
+        els.forEach(function(e){ obs.observe(e); });
+    } else { show(); }
+};
+
+
+</script>
+
+
+
+
+
     </body>
 </html>
